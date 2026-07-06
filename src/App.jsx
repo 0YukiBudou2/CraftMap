@@ -79,7 +79,7 @@ export default function App() {
 
     Promise.all([
       d3.csv("/edges.csv"),
-      d3.json("/ja_jp.json")
+      d3.json("/labels.json")
     ]).then(([links,ja]) => {
       function getLabel(id) {
         const label =
@@ -157,7 +157,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <div class="title-area">
+        <div className="title-area">
           <h1>Craft Map</h1>
           <h2>Minecraft レシピ可視化サイト</h2>
         </div> 
