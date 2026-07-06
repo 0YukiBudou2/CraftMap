@@ -1,0 +1,36 @@
+export const tagLabels = {
+        planks: "板材",
+        logs: "原木",
+        logs_that_burn: "燃える原木",
+        acacia_logs: "アカシアの原木",
+        birch_logs: "シラカバの原木",
+        cherry_logs: "サクラの原木",
+        dark_oak_logs: "ダークオークの原木",
+        jungle_logs: "ジャングルの原木",
+        mangrove_logs: "マングローブの原木",
+        oak_logs: "オークの原木",
+        pale_oak_logs: "ペールオークの原木",
+        spruce_logs: "トウヒの原木",
+
+        wooden_slabs: "木のハーフブロック",
+        wool: "羊毛",
+        leaves: "葉",
+        eggs: "卵",
+        coals: "石炭類",
+
+        stone_tool_materials: "石ツール素材",
+        wooden_tool_materials: "木ツール素材",
+        iron_tool_materials: "鉄ツール素材",
+        gold_tool_materials: "金ツール素材",
+        diamond_tool_materials: "ダイヤモンドツール素材",
+        netherite_tool_materials: "ネザライトツール素材",
+
+        copper_tool_materials: "銅ツール素材",
+        metal_nuggets: "金属の欠片",
+        bamboo_blocks: "竹ブロック",
+        stone_crafting_materials: "石系クラフト素材",
+        smelts_to_glass: "ガラス化素材",
+        soul_fire_base_blocks: "ソウルファイアの土台",
+        crimson_stems: "真紅の幹",
+        warped_stems: "歪んだ幹"
+      };

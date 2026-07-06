@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#content{
+  width:100%;
+  height:100%;
+}
+
+.app{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+}
+
+.header{
+  height:80px;
+  display:flex;
+  align-items:center;
+  padding-left:20px;
+  border-bottom:1px solid #ccc;
+}
+
+.title-area {
+  display: flex;
+  align-items: center;
+  gap: 24px;                /* h1とh2の間隔 */
+}
+
+.header h1{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.header h2{
+  font-size:18px;
+  width: 500px;
+  padding: 8px 12px;
+}
+
+.search-area{
+  margin-left:auto;
+  position:relative;
+}
+
+.search-input{
+  width:280px;
+  height:36px;
+  padding:0 12px;
+}
+
+.search-results{
+  position:absolute;
+
+  top:60px;
+  right:20px;
+
+  width:280px;
+
+  background:white;
+  border:1px solid #ccc;
+  border-radius:8px;
+
+  max-height:300px;
+  overflow-y:auto;
+}
+
+.search-result-item{
+  padding:10px 12px;
+  cursor:pointer;
+
+
+}
+
+.search-result-item:hover{
+  background:#f5f5f5;
+}
+
+.main{
+  flex:1;
+}
+
+.main svg{
+  width:100%;
+  height:100%;
+}
+
+.info{
+  position:fixed;
+  right:20px;
+  top:80px;
+
+  width:300px;
+
+  max-height:calc(100vh - 100px);
+
+  padding:16px;
+
+  background:white;
+  border:1px solid #ccc;
+  border-radius:8px;
+
+  overflow-y:auto;
+}
+
+.info ul{
+  padding-left:20px;
+}
+
+.info h2{
+  margin-bottom:12px;
+  padding-right:40px;
+}
+
+.info h3{
+  margin-top:12px;
+  margin-bottom:4px;
+}
+
+.close-button{
+  position:absolute;
+
+  top:8px;
+  right:8px;
+
+  width:28px;
+  height:28px;
+
+  border:none;
+  background:none;
+
+  font-size:20px;
+  cursor:pointer;
+}
