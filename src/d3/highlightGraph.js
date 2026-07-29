@@ -1,20 +1,14 @@
 import { colorMap } from "./colorMap";
 
-function resetGraphStyle(node, link, visibleGroups) {
+function resetGraphStyle(node, link) {
 
   node
     .attr("r", 5)
-    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other)
-    .attr("opacity", d =>
-      getDefaultNodeOpacity(d, visibleGroups)
-    );
+    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other);
 
   link
     .attr("stroke", "#999")
-    .attr("stroke-width", 1)
-    .attr("opacity", d =>
-      getDefaultLinkOpacity(d, visibleGroups)
-    );
+    .attr("stroke-width", 1);
 
 }
 function getNodeRadius(node, selectedNode) {
@@ -56,8 +50,7 @@ function updateNodeStyle(node, selectedNode) {
 
   node
     .attr("r", d => getNodeRadius(d, selectedNode))
-    .attr("fill", d => getNodeColor(d, selectedNode))
-    .attr("opacity", d => getNodeOpacity(d, selectedNode));
+    .attr("fill", d => getNodeColor(d, selectedNode));
 
 }
 function isSelectedLink(link, selectedNode) {
@@ -83,11 +76,6 @@ function updateLinkStyle(link, selectedNode) {
       isSelectedLink(d, selectedNode)
         ? 3
         : 1
-    )
-    .attr("opacity", d =>
-      isSelectedLink(d, selectedNode)
-        ? 1
-        : 0.1
     );
 
 }

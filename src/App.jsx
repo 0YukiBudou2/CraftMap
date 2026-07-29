@@ -177,23 +177,20 @@ console.log("versions.length =", versions.length);
 
     }, [searchText, allNodes]); 
   useEffect(() => {
-
     highlightGraph({
       node: nodeRef.current,
       link: linkRef.current,
-      selectedNode,
-      visibleGroups
+      selectedNode
     });
 
-  }, [selectedNode,visibleGroups]);
-  useEffect(() => {
     updateVersionFilter({
       node: nodeRef.current,
       link: linkRef.current,
-      visibleGroups
+      visibleGroups,
+      selectedNode
     });
-  }, [visibleGroups]); 
-  return (
+  }, [selectedNode, visibleGroups]);
+    return (
     <div className="app">
       <header className="header">
         <div className="title-area">
