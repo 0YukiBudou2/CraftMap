@@ -1,8 +1,10 @@
+import { colorMap } from "./colorMap";
+
 function resetGraphStyle(node, link) {
 
   node
     .attr("r", 5)
-    .attr("fill", "#69b3a2")
+    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other)
     .attr("opacity", 1);
 
   link
@@ -88,7 +90,8 @@ function updateLinkStyle(link, selectedNode) {
 export function highlightGraph({
   node,
   link,
-  selectedNode
+  selectedNode,
+  visibleGroups
 }) {
 
   if (!node || !link) {
@@ -99,6 +102,6 @@ export function highlightGraph({
     resetGraphStyle(node, link);
     return;
     }
-  updateNodeStyle(node, selectedNode);
-  updateLinkStyle(link, selectedNode);
+  updateNodeStyle(node, selectedNode,visibleGroups);
+  updateLinkStyle(link, selectedNode,visibleGroups);
 }

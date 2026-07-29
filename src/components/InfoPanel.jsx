@@ -7,8 +7,10 @@ export default function InfoPanel({
   return (
     <div className="info">
       <h2>{selectedNode.label}</h2>
-
+      <h3>追加バージョン</h3>
+      <p>{selectedNode.version || "不明"}</p>
       <h3>素材</h3>
+
       <ul>
         {selectedNode.ingredients.map(item => (
           <li key={item.id}>{item.label}</li>

@@ -145,3 +145,5 @@ vite.config.ts.timestamp-*
 # Minecraft official data
 recipe/
 public/ja_jp.json
+
+Wiki

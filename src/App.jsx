@@ -1,3 +1,4 @@
+import Legend from "./components/Legend";
 import { useEffect, useRef,useState } from "react";
 import { tagLabels } from "./translations/labels";
 import * as d3 from "d3";
@@ -31,12 +32,23 @@ export default function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [allNodes, setAllNodes] = useState([]);
   const [allLinks, setAllLinks] = useState([]);
+  const [visibleGroups,setVisibleGroups] = useState(
+    new Set([
+      "pre_1_8",
+      "1.9-1.12",
+      "1.13-1.15",
+      "1.16-1.18",
+      "1.19+",
+      "other"
+    ])
+  );
 
   function selectNode(nodeId,shouldZoom = false) {
     const targetNode = getNode(
       nodeId,
       allNodesRef.current
     );
+    console.log(targetNode);
     if (!targetNode) return;
 
     const ingredients = getIngredients(
@@ -58,6 +70,8 @@ export default function App() {
     setSelectedNode({
       id: nodeId,
       label: targetNode.label,
+      version: targetNode.version ?? "",
+      colorGroup: targetNode.colorGroup ?? "other",
       ingredients,
       products,
       connectedNodes
@@ -79,8 +93,15 @@ export default function App() {
 
     Promise.all([
       d3.csv("/edges.csv"),
-      d3.json("/labels.json")
-    ]).then(([links,ja]) => {
+      d3.json("/labels.json"),
+      d3.csv("/versions.csv")
+    ]).then(([links,ja,versions]) => {
+      
+      const versionMap = new Map(
+        versions.map(v => [v.id, v])
+      );
+      console.log("versions[0] =", versions[0]);
+console.log("versions.length =", versions.length);
       function getLabel(id) {
         const label =
           ja[`item.minecraft.${id}`] ||
@@ -94,20 +115,29 @@ export default function App() {
 
       links.forEach((d) => {
         if (!nodeMap.has(d.source)) {
+          const meta = versionMap.get(d.source);
+          if (d.source === "stick") {
+            console.log("versionMap:", meta);
+          }
           nodeMap.set(d.source, {
             id: d.source,
-            label: getLabel(d.source)
+            label: getLabel(d.source),
+            version: meta?.version ?? "",
+            colorGroup: meta?.colorGroup ?? "other"
           });
         }
 
         if (!nodeMap.has(d.target)) {
+          const meta = versionMap.get(d.target);
+
           nodeMap.set(d.target, {
             id: d.target,
-            label: getLabel(d.target)
+            label: getLabel(d.target),
+            version: meta?.version ?? "",
+            colorGroup: meta?.colorGroup ?? "other"
           });
         }
       });
-
       const nodes = [...nodeMap.values()];
       nodesRef.current = nodes;
       setAllNodes(nodes);
@@ -145,15 +175,16 @@ export default function App() {
       setSearchResults(results);
 
     }, [searchText, allNodes]);
-    useEffect(() => {
+  useEffect(() => {
 
     highlightGraph({
       node: nodeRef.current,
       link: linkRef.current,
-      selectedNode
+      selectedNode,
+      visibleGroups
     });
 
-  }, [selectedNode]);
+  }, [selectedNode,visibleGroups]);
   return (
     <div className="app">
       <header className="header">
@@ -171,7 +202,10 @@ export default function App() {
           }}
         />
       </header>
-
+      <Legend 
+        visibleGroups={visibleGroups}
+        setVisibleGroups={setVisibleGroups}
+      />
       <main className="main">
         <svg ref={svgRef}/>
       </main>

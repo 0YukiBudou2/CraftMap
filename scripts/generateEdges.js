@@ -12,9 +12,11 @@ function cleanName(name) {
     return "UNKNOWN";
   }
 
-  return name
-    .replace("#minecraft:", "")
-    .replace("minecraft:", "");
+  if (name.startsWith("#minecraft:")) {
+    return "#"+name.replace("#minecraft:", "");
+  }
+
+  return name.replace("minecraft:", "");
 }
 
 function addEdge(source, target, type) {

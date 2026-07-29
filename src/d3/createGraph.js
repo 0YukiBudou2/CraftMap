@@ -1,4 +1,5 @@
 import * as d3 from "d3";
+import { colorMap } from "./colorMap";
 
 function createSimulation(nodes, links, width, height) {
   return d3.forceSimulation(nodes)
@@ -29,7 +30,7 @@ function createNodes(container, nodes, onNodeClick) {
     .data(nodes)
     .join("circle")
     .attr("r", 5)
-    .attr("fill", "#69b3a2")
+    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other)
     .on("mouseover", function () {
       d3.select(this)
         .transition()
