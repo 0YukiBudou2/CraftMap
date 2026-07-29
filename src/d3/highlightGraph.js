@@ -1,16 +1,20 @@
 import { colorMap } from "./colorMap";
 
-function resetGraphStyle(node, link) {
+function resetGraphStyle(node, link, visibleGroups) {
 
   node
     .attr("r", 5)
     .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other)
-    .attr("opacity", 1);
+    .attr("opacity", d =>
+      getDefaultNodeOpacity(d, visibleGroups)
+    );
 
   link
     .attr("stroke", "#999")
     .attr("stroke-width", 1)
-    .attr("opacity", 0.6);
+    .attr("opacity", d =>
+      getDefaultLinkOpacity(d, visibleGroups)
+    );
 
 }
 function getNodeRadius(node, selectedNode) {
@@ -87,6 +91,22 @@ function updateLinkStyle(link, selectedNode) {
     );
 
 }
+function getDefaultNodeOpacity(node, visibleGroups) {
+  return visibleGroups.has(node.colorGroup)
+    ? 1
+    : 0.08;
+}
+function getDefaultLinkOpacity(link, visibleGroups) {
+  const sourceVisible =
+    visibleGroups.has(link.source.colorGroup);
+
+  const targetVisible =
+    visibleGroups.has(link.target.colorGroup);
+
+  return sourceVisible && targetVisible
+    ? 0.6
+    : 0.05;
+}
 export function highlightGraph({
   node,
   link,
@@ -99,7 +119,7 @@ export function highlightGraph({
   }
 
   if (!selectedNode) {
-    resetGraphStyle(node, link);
+    resetGraphStyle(node, link, visibleGroups);
     return;
     }
   updateNodeStyle(node, selectedNode,visibleGroups);
