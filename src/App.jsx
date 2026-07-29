@@ -8,6 +8,7 @@ import SearchBox from "./components/SearchBox";
 import { createGraph } from "./d3/createGraph";
 import { highlightGraph } from "./d3/highlightGraph";
 import { zoomToNode } from "./d3/zoomToNode";
+import { updateVersionFilter } from "./d3/versionFilter";
 import {
   getNode,
   getIngredients,
@@ -174,7 +175,7 @@ console.log("versions.length =", versions.length);
 
       setSearchResults(results);
 
-    }, [searchText, allNodes]);
+    }, [searchText, allNodes]); 
   useEffect(() => {
 
     highlightGraph({
@@ -185,6 +186,13 @@ console.log("versions.length =", versions.length);
     });
 
   }, [selectedNode,visibleGroups]);
+  useEffect(() => {
+    updateVersionFilter({
+      node: nodeRef.current,
+      link: linkRef.current,
+      visibleGroups
+    });
+  }, [visibleGroups]); 
   return (
     <div className="app">
       <header className="header">
