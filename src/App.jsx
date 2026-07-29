@@ -124,7 +124,7 @@ console.log("versions.length =", versions.length);
             id: d.source,
             label: getLabel(d.source),
             version: meta?.version ?? "",
-            colorGroup: meta?.colorGroup ?? "other"
+            colorGroup: meta?.colorGroup || "other"
           });
         }
 

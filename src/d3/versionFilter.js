@@ -7,6 +7,11 @@ export function updateVersionFilter({
 
   if (!node || !link) return;
 
+  node.each(d => {
+  if (d.colorGroup === "other") {
+    console.log("OTHER:", d.id);
+  }
+});
   node
     .attr("opacity", d => {
 
