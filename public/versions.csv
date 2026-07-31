@@ -30,1165 +30,1165 @@ id,version,colorGroup
 #wooden_slabs,,
 #wooden_tool_materials,,
 #wool,,
-acacia_boat,15w41a,1.9-1.12
-acacia_button,17w47a,1.13-1.15
-acacia_chest_boat,22w12a,1.19+
-acacia_door,14w32d,pre_1_8
-acacia_fence,14w32b,pre_1_8
-acacia_fence_gate,14w32b,pre_1_8
-acacia_hanging_sign,22w42a,1.19+
-acacia_log,13w43a,pre_1_8
+acacia_boat,1.9,1.9-1.12
+acacia_button,1.13,1.13-1.15
+acacia_chest_boat,1.19,1.19+
+acacia_door,1.8,pre_1_8
+acacia_fence,1.8,pre_1_8
+acacia_fence_gate,1.8,pre_1_8
+acacia_hanging_sign,1.19.3,1.19+
+acacia_log,1.7.2,pre_1_8
 acacia_planks,1.7,pre_1_8
-acacia_pressure_plate,17w47a,1.13-1.15
-acacia_shelf,25w31a,1.19+
-acacia_sign,18w43a,1.13-1.15
+acacia_pressure_plate,1.13,1.13-1.15
+acacia_shelf,1.21.9,1.19+
+acacia_sign,1.14,1.13-1.15
 acacia_slab,1.7,pre_1_8
 acacia_stairs,1.7,pre_1_8
-acacia_trapdoor,17w47a,1.13-1.15
-acacia_wood,13w43a,pre_1_8
-activator_rail,13w02a,pre_1_8
-allium,13w36a,pre_1_8
-amethyst_block,20w45a,1.16-1.18
-amethyst_shard,20w45a,1.16-1.18
-ancient_debris,20w06a,1.16-1.18
-andesite,14w02a,pre_1_8
-andesite_slab,18w43a,1.13-1.15
-andesite_stairs,18w43a,1.13-1.15
-andesite_wall,18w43a,1.13-1.15
-anvil,12w41a,pre_1_8
-apple,Indev 0.31 20091231-2147,pre_1_8
-armadillo_scute,23w51a,1.19+
-armor_stand,14w32a,pre_1_8
-arrow,Indev 0.31 20100122-2251,pre_1_8
-azure_bluet,13w36a,pre_1_8
-baked_potato,12w34a,pre_1_8
-bamboo,18w43a,1.13-1.15
-bamboo_block,22w45a,1.19+
-bamboo_button,22w42a,1.19+
-bamboo_chest_raft,22w42a,1.19+
-bamboo_door,22w42a,1.19+
-bamboo_fence,22w42a,1.19+
-bamboo_fence_gate,22w42a,1.19+
-bamboo_hanging_sign,22w42a,1.19+
-bamboo_mosaic,22w42a,1.19+
-bamboo_mosaic_slab,22w42a,1.19+
-bamboo_mosaic_stairs,22w42a,1.19+
-bamboo_planks,22w42a,1.19+
-bamboo_pressure_plate,22w42a,1.19+
-bamboo_raft,22w42a,1.19+
-bamboo_shelf,25w31a,1.19+
-bamboo_sign,22w42a,1.19+
-bamboo_slab,22w42a,1.19+
-bamboo_stairs,22w42a,1.19+
-bamboo_trapdoor,22w42a,1.19+
-barrel,18w44a,1.13-1.15
-basalt,20w06a,1.16-1.18
-beacon,12w32a,pre_1_8
-beef,Beta 1.8 Pre-release,pre_1_8
-beehive,19w34a,1.13-1.15
-beetroot,15w31a,1.9-1.12
-beetroot_soup,15w31a,1.9-1.12
-birch_boat,15w41a,1.9-1.12
-birch_button,17w47a,1.13-1.15
-birch_chest_boat,22w12a,1.19+
-birch_door,14w32d,pre_1_8
-birch_fence,14w32b,pre_1_8
-birch_fence_gate,14w32b,pre_1_8
-birch_hanging_sign,22w42a,1.19+
-birch_log,Beta 1.2,pre_1_8
+acacia_trapdoor,1.13,1.13-1.15
+acacia_wood,1.7.2,pre_1_8
+activator_rail,1.5,pre_1_8
+allium,1.6.1,pre_1_8
+amethyst_block,1.17,1.16-1.18
+amethyst_shard,1.17,1.16-1.18
+ancient_debris,1.16,1.16-1.18
+andesite,1.7.4,pre_1_8
+andesite_slab,1.14,1.13-1.15
+andesite_stairs,1.14,1.13-1.15
+andesite_wall,1.14,1.13-1.15
+anvil,1.4.2,pre_1_8
+apple,1.0.0,pre_1_8
+armadillo_scute,1.20.5,1.19+
+armor_stand,1.8,pre_1_8
+arrow,1.0.0,pre_1_8
+azure_bluet,1.6.1,pre_1_8
+baked_potato,1.4.2,pre_1_8
+bamboo,1.14,1.13-1.15
+bamboo_block,1.19.3,1.19+
+bamboo_button,1.19.3,1.19+
+bamboo_chest_raft,1.19.3,1.19+
+bamboo_door,1.19.3,1.19+
+bamboo_fence,1.19.3,1.19+
+bamboo_fence_gate,1.19.3,1.19+
+bamboo_hanging_sign,1.19.3,1.19+
+bamboo_mosaic,1.19.3,1.19+
+bamboo_mosaic_slab,1.19.3,1.19+
+bamboo_mosaic_stairs,1.19.3,1.19+
+bamboo_planks,1.19.3,1.19+
+bamboo_pressure_plate,1.19.3,1.19+
+bamboo_raft,1.19.3,1.19+
+bamboo_shelf,1.21.9,1.19+
+bamboo_sign,1.19.3,1.19+
+bamboo_slab,1.19.3,1.19+
+bamboo_stairs,1.19.3,1.19+
+bamboo_trapdoor,1.19.3,1.19+
+barrel,1.14,1.13-1.15
+basalt,1.16,1.16-1.18
+beacon,1.4.2,pre_1_8
+beef,1.0.0,pre_1_8
+beehive,1.15,1.13-1.15
+beetroot,1.9,1.9-1.12
+beetroot_soup,1.9,1.9-1.12
+birch_boat,1.9,1.9-1.12
+birch_button,1.13,1.13-1.15
+birch_chest_boat,1.19,1.19+
+birch_door,1.8,pre_1_8
+birch_fence,1.8,pre_1_8
+birch_fence_gate,1.8,pre_1_8
+birch_hanging_sign,1.19.3,1.19+
+birch_log,1.0.0,pre_1_8
 birch_planks,1.2.4,pre_1_8
-birch_pressure_plate,17w47a,1.13-1.15
-birch_shelf,25w31a,1.19+
-birch_sign,18w43a,1.13-1.15
-birch_slab,12w17a,pre_1_8
-birch_stairs,12w25a,pre_1_8
-birch_trapdoor,17w47a,1.13-1.15
-birch_wood,12w30d,pre_1_8
-black_banner,14w30a,pre_1_8
-black_bed,17w15a,1.9-1.12
-black_candle,20w45a,1.16-1.18
-black_carpet,13w16a,pre_1_8
-black_concrete_powder,17w06a,1.9-1.12
-black_dye,18w43a,1.13-1.15
-black_glazed_terracotta,17w06a,1.9-1.12
-black_harness,25w15a,1.19+
-black_stained_glass,13w41a,pre_1_8
-black_stained_glass_pane,13w41a,pre_1_8
-black_terracotta,13w19a,pre_1_8
-black_wool,Beta 1.2,pre_1_8
-blackstone,20w15a,1.16-1.18
-blackstone_slab,20w15a,1.16-1.18
-blackstone_stairs,20w15a,1.16-1.18
-blackstone_wall,20w15a,1.16-1.18
-blast_furnace,18w44a,1.13-1.15
-blaze_powder,Beta 1.9 Prerelease 2,pre_1_8
-blaze_rod,Beta 1.9 Prerelease,pre_1_8
-blue_banner,14w30a,pre_1_8
-blue_bed,17w15a,1.9-1.12
-blue_candle,20w45a,1.16-1.18
-blue_carpet,13w16a,pre_1_8
-blue_concrete_powder,17w06a,1.9-1.12
-blue_dye,18w43a,1.13-1.15
-blue_glazed_terracotta,17w06a,1.9-1.12
-blue_harness,25w15a,1.19+
-blue_ice,18w15a,1.13-1.15
-blue_orchid,13w36a,pre_1_8
-blue_stained_glass,13w41a,pre_1_8
-blue_stained_glass_pane,13w41a,pre_1_8
-blue_terracotta,13w19a,pre_1_8
-blue_wool,Beta 1.2,pre_1_8
-bolt_armor_trim_smithing_template,24w11a,1.19+
-bone,Beta 1.2,pre_1_8
-bone_block,16w20a,1.9-1.12
-bone_meal,Beta 1.2,pre_1_8
-book,Alpha v1.0.11,pre_1_8
-bookshelf,Classic 0.26 SURVIVAL TEST,pre_1_8
-bordure_indented_banner_pattern,24w33a,1.19+
-bow,Indev 0.31 20100122-2251,pre_1_8
-bowl,Indev 0.31 20100129-2332,pre_1_8
-bread,Indev 20100206-2034,pre_1_8
-breeze_rod,24w11a,1.19+
-brewing_stand,Beta 1.9 Prerelease 3,pre_1_8
-brick,Alpha v1.0.11,pre_1_8
-brick_slab,Beta 1.8 Pre-release,pre_1_8
-brick_stairs,Beta 1.8 Pre-release,pre_1_8
-brick_wall,18w43a,1.13-1.15
-bricks,Classic 0.26 SURVIVAL TEST,pre_1_8
-brown_banner,14w30a,pre_1_8
-brown_bed,17w15a,1.9-1.12
-brown_candle,20w45a,1.16-1.18
-brown_carpet,13w16a,pre_1_8
-brown_concrete_powder,17w06a,1.9-1.12
-brown_dye,18w43a,1.13-1.15
-brown_glazed_terracotta,17w06a,1.9-1.12
-brown_harness,25w15a,1.19+
-brown_mushroom,Classic 0.0.20a,pre_1_8
-brown_stained_glass,13w41a,pre_1_8
-brown_stained_glass_pane,13w41a,pre_1_8
-brown_terracotta,13w19a,pre_1_8
-brown_wool,Beta 1.2,pre_1_8
-brush,23w07a,1.19+
-bucket,Infdev 20100615,pre_1_8
-bundle,20w45a,1.16-1.18
-cactus,Alpha v1.0.6,pre_1_8
-cactus_flower,25w06a,1.19+
-cake,Beta 1.2,pre_1_8
-calibrated_sculk_sensor,23w12a,1.19+
-campfire,19w02a,1.13-1.15
-candle,20w45a,1.16-1.18
-carrot,12w34a,pre_1_8
-carrot_on_a_stick,12w36a,pre_1_8
-cartography_table,18w44a,1.13-1.15
-carved_pumpkin,Alpha v1.2.0,pre_1_8
-cauldron,Beta 1.9 Prerelease 3,pre_1_8
-chainmail_boots,Indev 0.31 20091231-2147,pre_1_8
-chainmail_chestplate,Indev 0.31 20091231-2147,pre_1_8
-chainmail_helmet,Indev 0.31 20091231-2147,pre_1_8
-chainmail_leggings,Indev 0.31 20091231-2147,pre_1_8
-charcoal,Beta 1.2,pre_1_8
-cherry_boat,23w07a,1.19+
-cherry_button,23w07a,1.19+
-cherry_chest_boat,23w07a,1.19+
-cherry_door,23w07a,1.19+
-cherry_fence,23w07a,1.19+
-cherry_fence_gate,23w07a,1.19+
-cherry_hanging_sign,23w07a,1.19+
-cherry_log,23w07a,1.19+
-cherry_planks,23w07a,1.19+
-cherry_pressure_plate,23w07a,1.19+
-cherry_shelf,25w31a,1.19+
-cherry_sign,23w07a,1.19+
-cherry_slab,23w07a,1.19+
-cherry_stairs,23w07a,1.19+
-cherry_trapdoor,23w07a,1.19+
-cherry_wood,23w07a,1.19+
-chest,Indev 0.31 20100124-2119,pre_1_8
-chest_minecart,Alpha v1.0.14,pre_1_8
-chicken,Beta 1.8 Pre-release,pre_1_8
-chiseled_bookshelf,22w42a,1.19+
-chiseled_cinnabar,26.2-snapshot-1,1.19+
-chiseled_copper,23w43a,1.19+
-chiseled_deepslate,21w07a,1.16-1.18
-chiseled_nether_bricks,20w15a,1.16-1.18
-chiseled_polished_blackstone,20w15a,1.16-1.18
-chiseled_quartz_block,13w02a,pre_1_8
-chiseled_red_sandstone,14w32a,pre_1_8
-chiseled_resin_bricks,24w44a,1.19+
+birch_pressure_plate,1.13,1.13-1.15
+birch_shelf,1.21.9,1.19+
+birch_sign,1.14,1.13-1.15
+birch_slab,1.3.1,pre_1_8
+birch_stairs,1.3.1,pre_1_8
+birch_trapdoor,1.13,1.13-1.15
+birch_wood,1.3.1,pre_1_8
+black_banner,1.8,pre_1_8
+black_bed,1.12,1.9-1.12
+black_candle,1.17,1.16-1.18
+black_carpet,1.6.1,pre_1_8
+black_concrete_powder,1.12,1.9-1.12
+black_dye,1.14,1.13-1.15
+black_glazed_terracotta,1.12,1.9-1.12
+black_harness,1.21.5,1.19+
+black_stained_glass,1.7.2,pre_1_8
+black_stained_glass_pane,1.7.2,pre_1_8
+black_terracotta,1.6.1,pre_1_8
+black_wool,1.0.0,pre_1_8
+blackstone,1.16,1.16-1.18
+blackstone_slab,1.16,1.16-1.18
+blackstone_stairs,1.16,1.16-1.18
+blackstone_wall,1.16,1.16-1.18
+blast_furnace,1.14,1.13-1.15
+blaze_powder,1.0.0,pre_1_8
+blaze_rod,1.0.0,pre_1_8
+blue_banner,1.8,pre_1_8
+blue_bed,1.12,1.9-1.12
+blue_candle,1.17,1.16-1.18
+blue_carpet,1.6.1,pre_1_8
+blue_concrete_powder,1.12,1.9-1.12
+blue_dye,1.14,1.13-1.15
+blue_glazed_terracotta,1.12,1.9-1.12
+blue_harness,1.21.5,1.19+
+blue_ice,1.13,1.13-1.15
+blue_orchid,1.6.1,pre_1_8
+blue_stained_glass,1.7.2,pre_1_8
+blue_stained_glass_pane,1.7.2,pre_1_8
+blue_terracotta,1.6.1,pre_1_8
+blue_wool,1.0.0,pre_1_8
+bolt_armor_trim_smithing_template,1.20.5,1.19+
+bone,1.0.0,pre_1_8
+bone_block,1.10,1.9-1.12
+bone_meal,1.0.0,pre_1_8
+book,1.0.0,pre_1_8
+bookshelf,1.0.0,pre_1_8
+bordure_indented_banner_pattern,1.21.2,1.19+
+bow,1.0.0,pre_1_8
+bowl,1.0.0,pre_1_8
+bread,1.0.0,pre_1_8
+breeze_rod,1.20.5,1.19+
+brewing_stand,1.0.0,pre_1_8
+brick,1.0.0,pre_1_8
+brick_slab,1.0.0,pre_1_8
+brick_stairs,1.0.0,pre_1_8
+brick_wall,1.14,1.13-1.15
+bricks,1.0.0,pre_1_8
+brown_banner,1.8,pre_1_8
+brown_bed,1.12,1.9-1.12
+brown_candle,1.17,1.16-1.18
+brown_carpet,1.6.1,pre_1_8
+brown_concrete_powder,1.12,1.9-1.12
+brown_dye,1.14,1.13-1.15
+brown_glazed_terracotta,1.12,1.9-1.12
+brown_harness,1.21.5,1.19+
+brown_mushroom,1.0.0,pre_1_8
+brown_stained_glass,1.7.2,pre_1_8
+brown_stained_glass_pane,1.7.2,pre_1_8
+brown_terracotta,1.6.1,pre_1_8
+brown_wool,1.0.0,pre_1_8
+brush,1.19.4,1.19+
+bucket,1.0.0,pre_1_8
+bundle,1.17,1.16-1.18
+cactus,1.0.0,pre_1_8
+cactus_flower,1.21.5,1.19+
+cake,1.0.0,pre_1_8
+calibrated_sculk_sensor,1.20,1.19+
+campfire,1.14,1.13-1.15
+candle,1.17,1.16-1.18
+carrot,1.4.2,pre_1_8
+carrot_on_a_stick,1.4.2,pre_1_8
+cartography_table,1.14,1.13-1.15
+carved_pumpkin,1.0.0,pre_1_8
+cauldron,1.0.0,pre_1_8
+chainmail_boots,1.0.0,pre_1_8
+chainmail_chestplate,1.0.0,pre_1_8
+chainmail_helmet,1.0.0,pre_1_8
+chainmail_leggings,1.0.0,pre_1_8
+charcoal,1.0.0,pre_1_8
+cherry_boat,1.19.4,1.19+
+cherry_button,1.19.4,1.19+
+cherry_chest_boat,1.19.4,1.19+
+cherry_door,1.19.4,1.19+
+cherry_fence,1.19.4,1.19+
+cherry_fence_gate,1.19.4,1.19+
+cherry_hanging_sign,1.19.4,1.19+
+cherry_log,1.19.4,1.19+
+cherry_planks,1.19.4,1.19+
+cherry_pressure_plate,1.19.4,1.19+
+cherry_shelf,1.21.9,1.19+
+cherry_sign,1.19.4,1.19+
+cherry_slab,1.19.4,1.19+
+cherry_stairs,1.19.4,1.19+
+cherry_trapdoor,1.19.4,1.19+
+cherry_wood,1.19.4,1.19+
+chest,1.0.0,pre_1_8
+chest_minecart,1.0.0,pre_1_8
+chicken,1.0.0,pre_1_8
+chiseled_bookshelf,1.19.3,1.19+
+chiseled_cinnabar,26.2,1.19+
+chiseled_copper,1.20.3,1.19+
+chiseled_deepslate,1.17,1.16-1.18
+chiseled_nether_bricks,1.16,1.16-1.18
+chiseled_polished_blackstone,1.16,1.16-1.18
+chiseled_quartz_block,1.5,pre_1_8
+chiseled_red_sandstone,1.8,pre_1_8
+chiseled_resin_bricks,1.21.2,1.19+
 chiseled_sandstone,1.2.4,pre_1_8
 chiseled_stone_bricks,1.2,pre_1_8
-chiseled_sulfur,26.2-snapshot-1,1.19+
-chiseled_tuff,23w43a,1.19+
-chiseled_tuff_bricks,23w43a,1.19+
-chorus_fruit,15w31a,1.9-1.12
-cinnabar,26.2-snapshot-1,1.19+
-cinnabar_brick_slab,26.2-snapshot-1,1.19+
-cinnabar_brick_stairs,26.2-snapshot-1,1.19+
-cinnabar_brick_wall,26.2-snapshot-1,1.19+
-cinnabar_bricks,26.2-snapshot-1,1.19+
-cinnabar_slab,26.2-snapshot-1,1.19+
-cinnabar_stairs,26.2-snapshot-1,1.19+
-cinnabar_wall,26.2-snapshot-1,1.19+
-clay,Alpha v1.0.11,pre_1_8
-clay_ball,Alpha v1.0.11,pre_1_8
-clock,Alpha v1.2.0,pre_1_8
-closed_eyeblossom,24w44a,1.19+
-coal,Indev 0.31 20100128-2200,pre_1_8
-coal_block,13w18a,pre_1_8
-coal_ore,Classic 0.0.14a,pre_1_8
-coarse_dirt,13w36a,pre_1_8
-coast_armor_trim_smithing_template,23w04a,1.19+
-cobbled_deepslate,21w08a,1.16-1.18
-cobbled_deepslate_slab,21w07a,1.16-1.18
-cobbled_deepslate_stairs,21w07a,1.16-1.18
-cobbled_deepslate_wall,21w07a,1.16-1.18
-cobblestone,pre-Classic rd-20090515,pre_1_8
-cobblestone_slab,Beta 1.3,pre_1_8
-cobblestone_stairs,Infdev 20100629,pre_1_8
-cobblestone_wall,12w32a,pre_1_8
-cocoa_beans,Beta 1.2,pre_1_8
-cod,Alpha v1.2.0,pre_1_8
-comparator,13w01a,pre_1_8
-compass,Alpha v1.1.0,pre_1_8
-composter,19w03a,1.13-1.15
-conduit,18w15a,1.13-1.15
-cooked_beef,Beta 1.8 Pre-release,pre_1_8
-cooked_chicken,Beta 1.8 Pre-release,pre_1_8
-cooked_cod,Alpha v1.2.0,pre_1_8
-cooked_mutton,14w27a,pre_1_8
-cooked_porkchop,Indev 20100219,pre_1_8
-cooked_rabbit,14w27a,pre_1_8
-cooked_salmon,13w36a,pre_1_8
-cookie,Beta 1.4,pre_1_8
-copper_axe,25w31a,1.19+
-copper_bars,25w32a,1.19+
-copper_block,20w45a,1.16-1.18
-copper_boots,25w31a,1.19+
-copper_bulb,23w43a,1.19+
-copper_chain,25w32a,1.19+
-copper_chest,25w31a,1.19+
-copper_chestplate,25w31a,1.19+
-copper_door,23w43a,1.19+
-copper_golem_statue,25w31a,1.19+
-copper_grate,23w43a,1.19+
-copper_helmet,25w31a,1.19+
-copper_hoe,25w31a,1.19+
-copper_horse_armor,25w31a,1.19+
-copper_ingot,20w45a,1.16-1.18
-copper_lantern,25w32a,1.19+
-copper_leggings,25w31a,1.19+
-copper_nautilus_armor,25w41a,1.19+
-copper_nugget,25w31a,1.19+
-copper_ore,20w45a,1.16-1.18
-copper_pickaxe,25w31a,1.19+
-copper_shovel,25w31a,1.19+
-copper_spear,25w41a,1.19+
-copper_sword,25w31a,1.19+
-copper_torch,25w32a,1.19+
-copper_trapdoor,23w43a,1.19+
-cornflower,18w43a,1.13-1.15
-cracked_deepslate_bricks,21w10a,1.16-1.18
-cracked_deepslate_tiles,21w10a,1.16-1.18
-cracked_nether_bricks,20w15a,1.16-1.18
-cracked_polished_blackstone_bricks,20w15a,1.16-1.18
-cracked_stone_bricks,Beta 1.8 Pre-release,pre_1_8
-crafter,23w42a,1.19+
-crafting_table,Indev 0.31 20100129-2332,pre_1_8
-creaking_heart,24w40a,1.19+
-creeper_banner_pattern,18w43a,1.13-1.15
-creeper_head,12w36a,pre_1_8
-crimson_button,20w06a,1.16-1.18
-crimson_door,20w06a,1.16-1.18
-crimson_fence,20w06a,1.16-1.18
-crimson_fence_gate,20w06a,1.16-1.18
-crimson_hanging_sign,22w42a,1.19+
-crimson_hyphae,20w10a,1.16-1.18
-crimson_planks,20w06a,1.16-1.18
-crimson_pressure_plate,20w06a,1.16-1.18
-crimson_shelf,25w31a,1.19+
-crimson_sign,20w06a,1.16-1.18
-crimson_slab,20w06a,1.16-1.18
-crimson_stairs,20w06a,1.16-1.18
-crimson_stem,20w06a,1.16-1.18
-crimson_trapdoor,20w06a,1.16-1.18
-crossbow,18w43a,1.13-1.15
-crying_obsidian,20w09a,1.16-1.18
-cut_copper,20w45a,1.16-1.18
-cut_copper_slab,20w45a,1.16-1.18
-cut_copper_stairs,20w45a,1.16-1.18
-cut_red_sandstone,14w32a,pre_1_8
-cut_red_sandstone_slab,19w12a,1.13-1.15
+chiseled_sulfur,26.2,1.19+
+chiseled_tuff,1.20.3,1.19+
+chiseled_tuff_bricks,1.20.3,1.19+
+chorus_fruit,1.9,1.9-1.12
+cinnabar,26.2,1.19+
+cinnabar_brick_slab,26.2,1.19+
+cinnabar_brick_stairs,26.2,1.19+
+cinnabar_brick_wall,26.2,1.19+
+cinnabar_bricks,26.2,1.19+
+cinnabar_slab,26.2,1.19+
+cinnabar_stairs,26.2,1.19+
+cinnabar_wall,26.2,1.19+
+clay,1.0.0,pre_1_8
+clay_ball,1.0.0,pre_1_8
+clock,1.0.0,pre_1_8
+closed_eyeblossom,1.21.2,1.19+
+coal,1.0.0,pre_1_8
+coal_block,1.6.1,pre_1_8
+coal_ore,1.0.0,pre_1_8
+coarse_dirt,1.6.1,pre_1_8
+coast_armor_trim_smithing_template,1.19.4,1.19+
+cobbled_deepslate,1.17,1.16-1.18
+cobbled_deepslate_slab,1.17,1.16-1.18
+cobbled_deepslate_stairs,1.17,1.16-1.18
+cobbled_deepslate_wall,1.17,1.16-1.18
+cobblestone,1.0.0,pre_1_8
+cobblestone_slab,1.0.0,pre_1_8
+cobblestone_stairs,1.0.0,pre_1_8
+cobblestone_wall,1.4.2,pre_1_8
+cocoa_beans,1.0.0,pre_1_8
+cod,1.0.0,pre_1_8
+comparator,1.5,pre_1_8
+compass,1.0.0,pre_1_8
+composter,1.14,1.13-1.15
+conduit,1.13,1.13-1.15
+cooked_beef,1.0.0,pre_1_8
+cooked_chicken,1.0.0,pre_1_8
+cooked_cod,1.0.0,pre_1_8
+cooked_mutton,1.8,pre_1_8
+cooked_porkchop,1.0.0,pre_1_8
+cooked_rabbit,1.8,pre_1_8
+cooked_salmon,1.6.1,pre_1_8
+cookie,1.0.0,pre_1_8
+copper_axe,1.21.9,1.19+
+copper_bars,1.21.9,1.19+
+copper_block,1.17,1.16-1.18
+copper_boots,1.21.9,1.19+
+copper_bulb,1.20.3,1.19+
+copper_chain,1.21.9,1.19+
+copper_chest,1.21.9,1.19+
+copper_chestplate,1.21.9,1.19+
+copper_door,1.20.3,1.19+
+copper_golem_statue,1.21.9,1.19+
+copper_grate,1.20.3,1.19+
+copper_helmet,1.21.9,1.19+
+copper_hoe,1.21.9,1.19+
+copper_horse_armor,1.21.9,1.19+
+copper_ingot,1.17,1.16-1.18
+copper_lantern,1.21.9,1.19+
+copper_leggings,1.21.9,1.19+
+copper_nautilus_armor,1.21.9,1.19+
+copper_nugget,1.21.9,1.19+
+copper_ore,1.17,1.16-1.18
+copper_pickaxe,1.21.9,1.19+
+copper_shovel,1.21.9,1.19+
+copper_spear,1.21.9,1.19+
+copper_sword,1.21.9,1.19+
+copper_torch,1.21.9,1.19+
+copper_trapdoor,1.20.3,1.19+
+cornflower,1.14,1.13-1.15
+cracked_deepslate_bricks,1.17,1.16-1.18
+cracked_deepslate_tiles,1.17,1.16-1.18
+cracked_nether_bricks,1.16,1.16-1.18
+cracked_polished_blackstone_bricks,1.16,1.16-1.18
+cracked_stone_bricks,1.0.0,pre_1_8
+crafter,1.20.3,1.19+
+crafting_table,1.0.0,pre_1_8
+creaking_heart,1.21.2,1.19+
+creeper_banner_pattern,1.14,1.13-1.15
+creeper_head,1.4.2,pre_1_8
+crimson_button,1.16,1.16-1.18
+crimson_door,1.16,1.16-1.18
+crimson_fence,1.16,1.16-1.18
+crimson_fence_gate,1.16,1.16-1.18
+crimson_hanging_sign,1.19.3,1.19+
+crimson_hyphae,1.16,1.16-1.18
+crimson_planks,1.16,1.16-1.18
+crimson_pressure_plate,1.16,1.16-1.18
+crimson_shelf,1.21.9,1.19+
+crimson_sign,1.16,1.16-1.18
+crimson_slab,1.16,1.16-1.18
+crimson_stairs,1.16,1.16-1.18
+crimson_stem,1.16,1.16-1.18
+crimson_trapdoor,1.16,1.16-1.18
+crossbow,1.14,1.13-1.15
+crying_obsidian,1.16,1.16-1.18
+cut_copper,1.17,1.16-1.18
+cut_copper_slab,1.17,1.16-1.18
+cut_copper_stairs,1.17,1.16-1.18
+cut_red_sandstone,1.8,pre_1_8
+cut_red_sandstone_slab,1.14,1.13-1.15
 cut_sandstone,1.2.4,pre_1_8
-cut_sandstone_slab,19w12a,1.13-1.15
-cyan_banner,14w30a,pre_1_8
-cyan_bed,17w15a,1.9-1.12
-cyan_candle,20w45a,1.16-1.18
-cyan_carpet,13w16a,pre_1_8
-cyan_concrete_powder,17w06a,1.9-1.12
-cyan_dye,Beta 1.2,pre_1_8
-cyan_glazed_terracotta,17w06a,1.9-1.12
-cyan_harness,25w15a,1.19+
-cyan_stained_glass,13w41a,pre_1_8
-cyan_stained_glass_pane,13w41a,pre_1_8
-cyan_terracotta,13w19a,pre_1_8
-cyan_wool,Beta 1.2,pre_1_8
-dandelion,Classic 0.0.20a,pre_1_8
-dark_oak_boat,15w41a,1.9-1.12
-dark_oak_button,17w47a,1.13-1.15
-dark_oak_chest_boat,22w12a,1.19+
-dark_oak_door,14w32d,pre_1_8
-dark_oak_fence,14w32b,pre_1_8
-dark_oak_fence_gate,14w32b,pre_1_8
-dark_oak_hanging_sign,22w42a,1.19+
-dark_oak_log,13w43a,pre_1_8
+cut_sandstone_slab,1.14,1.13-1.15
+cyan_banner,1.8,pre_1_8
+cyan_bed,1.12,1.9-1.12
+cyan_candle,1.17,1.16-1.18
+cyan_carpet,1.6.1,pre_1_8
+cyan_concrete_powder,1.12,1.9-1.12
+cyan_dye,1.0.0,pre_1_8
+cyan_glazed_terracotta,1.12,1.9-1.12
+cyan_harness,1.21.5,1.19+
+cyan_stained_glass,1.7.2,pre_1_8
+cyan_stained_glass_pane,1.7.2,pre_1_8
+cyan_terracotta,1.6.1,pre_1_8
+cyan_wool,1.0.0,pre_1_8
+dandelion,1.0.0,pre_1_8
+dark_oak_boat,1.9,1.9-1.12
+dark_oak_button,1.13,1.13-1.15
+dark_oak_chest_boat,1.19,1.19+
+dark_oak_door,1.8,pre_1_8
+dark_oak_fence,1.8,pre_1_8
+dark_oak_fence_gate,1.8,pre_1_8
+dark_oak_hanging_sign,1.19.3,1.19+
+dark_oak_log,1.7.2,pre_1_8
 dark_oak_planks,1.7,pre_1_8
-dark_oak_pressure_plate,17w47a,1.13-1.15
-dark_oak_shelf,25w31a,1.19+
-dark_oak_sign,18w43a,1.13-1.15
+dark_oak_pressure_plate,1.13,1.13-1.15
+dark_oak_shelf,1.21.9,1.19+
+dark_oak_sign,1.14,1.13-1.15
 dark_oak_slab,1.7,pre_1_8
 dark_oak_stairs,1.7,pre_1_8
-dark_oak_trapdoor,17w47a,1.13-1.15
-dark_oak_wood,13w43a,pre_1_8
-dark_prismarine,14w25a,pre_1_8
-dark_prismarine_slab,18w07a,1.13-1.15
-dark_prismarine_stairs,18w07a,1.13-1.15
-daylight_detector,13w01a,pre_1_8
-decorated_pot,23w07a,1.19+
-deepslate,21w07a,1.16-1.18
-deepslate_brick_slab,21w07a,1.16-1.18
-deepslate_brick_stairs,21w07a,1.16-1.18
-deepslate_brick_wall,21w07a,1.16-1.18
-deepslate_bricks,21w07a,1.16-1.18
-deepslate_coal_ore,21w10a,1.16-1.18
-deepslate_copper_ore,21w10a,1.16-1.18
-deepslate_diamond_ore,21w08a,1.16-1.18
-deepslate_emerald_ore,21w10a,1.16-1.18
-deepslate_gold_ore,21w08a,1.16-1.18
-deepslate_iron_ore,21w08a,1.16-1.18
-deepslate_lapis_ore,21w08a,1.16-1.18
-deepslate_redstone_ore,21w08a,1.16-1.18
-deepslate_tile_slab,21w07a,1.16-1.18
-deepslate_tile_stairs,21w07a,1.16-1.18
-deepslate_tile_wall,21w07a,1.16-1.18
-deepslate_tiles,21w07a,1.16-1.18
-detector_rail,Beta 1.5,pre_1_8
-diamond,Indev 0.31 20100128-2200,pre_1_8
-diamond_axe,Indev 0.31 20100128-2200,pre_1_8
-diamond_block,Indev 0.31 20100128-2200,pre_1_8
-diamond_boots,Indev 20100212-1210,pre_1_8
-diamond_chestplate,Indev 20100212-1210,pre_1_8
-diamond_helmet,Indev 20100212-1210,pre_1_8
-diamond_hoe,Indev 20100206-2034,pre_1_8
-diamond_horse_armor,13w16a,pre_1_8
-diamond_leggings,Indev 20100212-1210,pre_1_8
-diamond_nautilus_armor,25w41a,1.19+
-diamond_ore,Indev 0.31 20100128-2200,pre_1_8
-diamond_pickaxe,Indev 0.31 20100128-2200,pre_1_8
-diamond_shovel,Indev 0.31 20100128-2200,pre_1_8
-diamond_spear,25w41a,1.19+
-diamond_sword,Indev 0.31 20100128-2200,pre_1_8
-diorite,14w02a,pre_1_8
-diorite_slab,18w43a,1.13-1.15
-diorite_stairs,18w43a,1.13-1.15
-diorite_wall,18w43a,1.13-1.15
-dirt,pre-Classic rd-20090515,pre_1_8
-disc_fragment_5,22w16a,1.19+
-dispenser,Beta 1.2,pre_1_8
-dried_ghast,25w15a,1.19+
-dried_kelp,18w07a,1.13-1.15
-dried_kelp_block,18w07a,1.13-1.15
-dripstone_block,20w48a,1.16-1.18
-dropper,13w03a,pre_1_8
-dune_armor_trim_smithing_template,23w04a,1.19+
-echo_shard,22w14a,1.19+
-emerald,12w21a,pre_1_8
-emerald_block,12w22a,pre_1_8
-emerald_ore,12w21a,pre_1_8
-enchanted_golden_apple,12w21a,pre_1_8
-enchanting_table,Beta 1.9 Prerelease 3,pre_1_8
-end_crystal,15w41a,1.9-1.12
-end_rod,15w31a,1.9-1.12
-end_stone,Beta 1.9 Prerelease 4,pre_1_8
-end_stone_brick_slab,18w43a,1.13-1.15
-end_stone_brick_stairs,18w43a,1.13-1.15
-end_stone_brick_wall,18w43a,1.13-1.15
-end_stone_bricks,15w31a,1.9-1.12
-ender_chest,12w21a,pre_1_8
-ender_eye,Beta 1.9 Prerelease 3,pre_1_8
-ender_pearl,Beta 1.8 Pre-release,pre_1_8
-exposed_chiseled_copper,23w43a,1.19+
-exposed_copper,20w45a,1.16-1.18
-exposed_copper_bars,25w32a,1.19+
-exposed_copper_bulb,23w43a,1.19+
-exposed_copper_chain,25w32a,1.19+
-exposed_copper_chest,25w31a,1.19+
-exposed_copper_door,23w43a,1.19+
-exposed_copper_golem_statue,25w31a,1.19+
-exposed_copper_grate,23w43a,1.19+
-exposed_copper_lantern,25w32a,1.19+
-exposed_copper_trapdoor,23w43a,1.19+
-exposed_cut_copper,20w45a,1.16-1.18
-exposed_cut_copper_slab,20w45a,1.16-1.18
-exposed_cut_copper_stairs,20w45a,1.16-1.18
-exposed_lightning_rod,25w31a,1.19+
-eye_armor_trim_smithing_template,23w04a,1.19+
-feather,Indev 0.31 20100130,pre_1_8
-fermented_spider_eye,Beta 1.9 Prerelease 2,pre_1_8
-field_masoned_banner_pattern,24w33a,1.19+
-fire_charge,12w04a,pre_1_8
-firework_rocket,12w49a,pre_1_8
-fishing_rod,Alpha v1.1.1,pre_1_8
-fletching_table,18w44a,1.13-1.15
-flint,Indev 20100219,pre_1_8
-flint_and_steel,Indev 0.31 20100110,pre_1_8
-flow_armor_trim_smithing_template,24w11a,1.19+
-flower_banner_pattern,18w43a,1.13-1.15
-flower_pot,12w34a,pre_1_8
-furnace,Indev 20100219,pre_1_8
-furnace_minecart,Alpha v1.0.14,pre_1_8
-ghast_tear,Beta 1.9 Prerelease,pre_1_8
-glass,Classic 0.0.19a,pre_1_8
-glass_bottle,Beta 1.9 Prerelease 2,pre_1_8
-glass_pane,Beta 1.8 Pre-release,pre_1_8
-glistering_melon_slice,Beta 1.9 Prerelease 4,pre_1_8
-glow_ink_sac,21w03a,1.16-1.18
-glow_item_frame,21w03a,1.16-1.18
-glowstone,Alpha v1.2.0,pre_1_8
-glowstone_dust,Alpha v1.2.0,pre_1_8
-gold_block,Classic 0.0.20a,pre_1_8
-gold_ingot,Indev 0.31 20100128-2200,pre_1_8
-gold_nugget,Beta 1.9 Prerelease,pre_1_8
-gold_ore,Classic 0.0.14a,pre_1_8
-golden_apple,Infdev 20100227-1414,pre_1_8
-golden_axe,Indev 0.31 20100129-2332,pre_1_8
-golden_boots,Indev 20100212-1210,pre_1_8
-golden_carrot,12w34a,pre_1_8
-golden_chestplate,Indev 20100212-1210,pre_1_8
-golden_dandelion,26.1 Snapshot 5,1.19+
-golden_helmet,Indev 20100212-1210,pre_1_8
-golden_hoe,Indev 20100206-2034,pre_1_8
-golden_horse_armor,13w16a,pre_1_8
-golden_leggings,Indev 20100212-1210,pre_1_8
-golden_nautilus_armor,25w41a,1.19+
-golden_pickaxe,Indev 0.31 20100129-2332,pre_1_8
-golden_shovel,Indev 0.31 20100129-2332,pre_1_8
-golden_spear,25w41a,1.19+
-golden_sword,Indev 0.31 20100129-2332,pre_1_8
-granite,14w02a,pre_1_8
-granite_slab,18w43a,1.13-1.15
-granite_stairs,18w43a,1.13-1.15
-granite_wall,18w43a,1.13-1.15
-gravel,Classic 0.0.14a,pre_1_8
-gray_banner,14w30a,pre_1_8
-gray_bed,17w15a,1.9-1.12
-gray_candle,20w45a,1.16-1.18
-gray_carpet,13w16a,pre_1_8
-gray_concrete_powder,17w06a,1.9-1.12
-gray_dye,Beta 1.2,pre_1_8
-gray_glazed_terracotta,17w06a,1.9-1.12
-gray_harness,25w15a,1.19+
-gray_stained_glass,13w41a,pre_1_8
-gray_stained_glass_pane,13w41a,pre_1_8
-gray_terracotta,13w19a,pre_1_8
-gray_wool,Beta 1.2,pre_1_8
-green_banner,14w30a,pre_1_8
-green_bed,17w15a,1.9-1.12
-green_candle,20w45a,1.16-1.18
-green_carpet,13w16a,pre_1_8
-green_concrete_powder,17w06a,1.9-1.12
-green_dye,Beta 1.2,pre_1_8
-green_glazed_terracotta,17w06a,1.9-1.12
-green_harness,25w15a,1.19+
-green_stained_glass,13w41a,pre_1_8
-green_stained_glass_pane,13w41a,pre_1_8
-green_terracotta,13w19a,pre_1_8
-green_wool,Beta 1.2,pre_1_8
-grindstone,18w44a,1.13-1.15
-gunpowder,Indev 0.31 20100130,pre_1_8
-hay_block,13w16a,pre_1_8
-heart_of_the_sea,18w15a,1.13-1.15
-heavy_core,24w11a,1.19+
-heavy_weighted_pressure_plate,13w01a,pre_1_8
-honey_block,19w41a,1.13-1.15
-honey_bottle,19w34a,1.13-1.15
-honeycomb,19w34a,1.13-1.15
-honeycomb_block,19w41a,1.13-1.15
-hopper,13w01a,pre_1_8
-hopper_minecart,13w03a,pre_1_8
-host_armor_trim_smithing_template,23w12a,1.19+
-ice,Alpha v1.0.4,pre_1_8
-ink_sac,Beta 1.2,pre_1_8
-iron_axe,Indev 0.31 20100110,pre_1_8
-iron_bars,Beta 1.8 Pre-release,pre_1_8
-iron_block,Classic 0.26 SURVIVAL TEST,pre_1_8
-iron_boots,Indev 0.31 20091231-2147,pre_1_8
-iron_chain,20w16a,1.16-1.18
-iron_chestplate,Indev 0.31 20091231-2147,pre_1_8
-iron_door,Alpha v1.0.1,pre_1_8
-iron_helmet,Indev 0.31 20091231-2147,pre_1_8
-iron_hoe,Indev 20100206-2034,pre_1_8
-iron_horse_armor,13w16a,pre_1_8
-iron_ingot,Indev 0.31 20100128-2200,pre_1_8
-iron_leggings,Indev 0.31 20091231-2147,pre_1_8
-iron_nautilus_armor,25w41a,1.19+
-iron_nugget,16w50a,1.9-1.12
-iron_ore,Classic 0.0.14a,pre_1_8
-iron_pickaxe,Indev 0.31 20100110,pre_1_8
-iron_shovel,Indev 0.31 20091231-2147,pre_1_8
-iron_spear,25w41a,1.19+
-iron_sword,Indev 0.31 20091231-2147,pre_1_8
-iron_trapdoor,14w07a,pre_1_8
-item_frame,12w34a,pre_1_8
-jack_o_lantern,Alpha v1.2.0,pre_1_8
-jukebox,Alpha v1.0.14,pre_1_8
-jungle_boat,15w41a,1.9-1.12
-jungle_button,17w47a,1.13-1.15
-jungle_chest_boat,22w12a,1.19+
-jungle_door,14w32d,pre_1_8
-jungle_fence,14w32b,pre_1_8
-jungle_fence_gate,14w32b,pre_1_8
-jungle_hanging_sign,22w42a,1.19+
-jungle_log,12w03a,pre_1_8
+dark_oak_trapdoor,1.13,1.13-1.15
+dark_oak_wood,1.7.2,pre_1_8
+dark_prismarine,1.8,pre_1_8
+dark_prismarine_slab,1.13,1.13-1.15
+dark_prismarine_stairs,1.13,1.13-1.15
+daylight_detector,1.5,pre_1_8
+decorated_pot,1.19.4,1.19+
+deepslate,1.17,1.16-1.18
+deepslate_brick_slab,1.17,1.16-1.18
+deepslate_brick_stairs,1.17,1.16-1.18
+deepslate_brick_wall,1.17,1.16-1.18
+deepslate_bricks,1.17,1.16-1.18
+deepslate_coal_ore,1.17,1.16-1.18
+deepslate_copper_ore,1.17,1.16-1.18
+deepslate_diamond_ore,1.17,1.16-1.18
+deepslate_emerald_ore,1.17,1.16-1.18
+deepslate_gold_ore,1.17,1.16-1.18
+deepslate_iron_ore,1.17,1.16-1.18
+deepslate_lapis_ore,1.17,1.16-1.18
+deepslate_redstone_ore,1.17,1.16-1.18
+deepslate_tile_slab,1.17,1.16-1.18
+deepslate_tile_stairs,1.17,1.16-1.18
+deepslate_tile_wall,1.17,1.16-1.18
+deepslate_tiles,1.17,1.16-1.18
+detector_rail,1.0.0,pre_1_8
+diamond,1.0.0,pre_1_8
+diamond_axe,1.0.0,pre_1_8
+diamond_block,1.0.0,pre_1_8
+diamond_boots,1.0.0,pre_1_8
+diamond_chestplate,1.0.0,pre_1_8
+diamond_helmet,1.0.0,pre_1_8
+diamond_hoe,1.0.0,pre_1_8
+diamond_horse_armor,1.6.1,pre_1_8
+diamond_leggings,1.0.0,pre_1_8
+diamond_nautilus_armor,1.21.9,1.19+
+diamond_ore,1.0.0,pre_1_8
+diamond_pickaxe,1.0.0,pre_1_8
+diamond_shovel,1.0.0,pre_1_8
+diamond_spear,1.21.9,1.19+
+diamond_sword,1.0.0,pre_1_8
+diorite,1.7.4,pre_1_8
+diorite_slab,1.14,1.13-1.15
+diorite_stairs,1.14,1.13-1.15
+diorite_wall,1.14,1.13-1.15
+dirt,1.0.0,pre_1_8
+disc_fragment_5,1.19,1.19+
+dispenser,1.0.0,pre_1_8
+dried_ghast,1.21.5,1.19+
+dried_kelp,1.13,1.13-1.15
+dried_kelp_block,1.13,1.13-1.15
+dripstone_block,1.17,1.16-1.18
+dropper,1.5,pre_1_8
+dune_armor_trim_smithing_template,1.19.4,1.19+
+echo_shard,1.19,1.19+
+emerald,1.3.1,pre_1_8
+emerald_block,1.3.1,pre_1_8
+emerald_ore,1.3.1,pre_1_8
+enchanted_golden_apple,1.3.1,pre_1_8
+enchanting_table,1.0.0,pre_1_8
+end_crystal,1.9,1.9-1.12
+end_rod,1.9,1.9-1.12
+end_stone,1.0.0,pre_1_8
+end_stone_brick_slab,1.14,1.13-1.15
+end_stone_brick_stairs,1.14,1.13-1.15
+end_stone_brick_wall,1.14,1.13-1.15
+end_stone_bricks,1.9,1.9-1.12
+ender_chest,1.3.1,pre_1_8
+ender_eye,1.0.0,pre_1_8
+ender_pearl,1.0.0,pre_1_8
+exposed_chiseled_copper,1.20.3,1.19+
+exposed_copper,1.17,1.16-1.18
+exposed_copper_bars,1.21.9,1.19+
+exposed_copper_bulb,1.20.3,1.19+
+exposed_copper_chain,1.21.9,1.19+
+exposed_copper_chest,1.21.9,1.19+
+exposed_copper_door,1.20.3,1.19+
+exposed_copper_golem_statue,1.21.9,1.19+
+exposed_copper_grate,1.20.3,1.19+
+exposed_copper_lantern,1.21.9,1.19+
+exposed_copper_trapdoor,1.20.3,1.19+
+exposed_cut_copper,1.17,1.16-1.18
+exposed_cut_copper_slab,1.17,1.16-1.18
+exposed_cut_copper_stairs,1.17,1.16-1.18
+exposed_lightning_rod,1.21.9,1.19+
+eye_armor_trim_smithing_template,1.19.4,1.19+
+feather,1.0.0,pre_1_8
+fermented_spider_eye,1.0.0,pre_1_8
+field_masoned_banner_pattern,1.21.2,1.19+
+fire_charge,1.2.1,pre_1_8
+firework_rocket,1.4.6,pre_1_8
+fishing_rod,1.0.0,pre_1_8
+fletching_table,1.14,1.13-1.15
+flint,1.0.0,pre_1_8
+flint_and_steel,1.0.0,pre_1_8
+flow_armor_trim_smithing_template,1.20.5,1.19+
+flower_banner_pattern,1.14,1.13-1.15
+flower_pot,1.4.2,pre_1_8
+furnace,1.0.0,pre_1_8
+furnace_minecart,1.0.0,pre_1_8
+ghast_tear,1.0.0,pre_1_8
+glass,1.0.0,pre_1_8
+glass_bottle,1.0.0,pre_1_8
+glass_pane,1.0.0,pre_1_8
+glistering_melon_slice,1.0.0,pre_1_8
+glow_ink_sac,1.17,1.16-1.18
+glow_item_frame,1.17,1.16-1.18
+glowstone,1.0.0,pre_1_8
+glowstone_dust,1.0.0,pre_1_8
+gold_block,1.0.0,pre_1_8
+gold_ingot,1.0.0,pre_1_8
+gold_nugget,1.0.0,pre_1_8
+gold_ore,1.0.0,pre_1_8
+golden_apple,1.0.0,pre_1_8
+golden_axe,1.0.0,pre_1_8
+golden_boots,1.0.0,pre_1_8
+golden_carrot,1.4.2,pre_1_8
+golden_chestplate,1.0.0,pre_1_8
+golden_dandelion,26.1,1.19+
+golden_helmet,1.0.0,pre_1_8
+golden_hoe,1.0.0,pre_1_8
+golden_horse_armor,1.6.1,pre_1_8
+golden_leggings,1.0.0,pre_1_8
+golden_nautilus_armor,1.21.9,1.19+
+golden_pickaxe,1.0.0,pre_1_8
+golden_shovel,1.0.0,pre_1_8
+golden_spear,1.21.9,1.19+
+golden_sword,1.0.0,pre_1_8
+granite,1.7.4,pre_1_8
+granite_slab,1.14,1.13-1.15
+granite_stairs,1.14,1.13-1.15
+granite_wall,1.14,1.13-1.15
+gravel,1.0.0,pre_1_8
+gray_banner,1.8,pre_1_8
+gray_bed,1.12,1.9-1.12
+gray_candle,1.17,1.16-1.18
+gray_carpet,1.6.1,pre_1_8
+gray_concrete_powder,1.12,1.9-1.12
+gray_dye,1.0.0,pre_1_8
+gray_glazed_terracotta,1.12,1.9-1.12
+gray_harness,1.21.5,1.19+
+gray_stained_glass,1.7.2,pre_1_8
+gray_stained_glass_pane,1.7.2,pre_1_8
+gray_terracotta,1.6.1,pre_1_8
+gray_wool,1.0.0,pre_1_8
+green_banner,1.8,pre_1_8
+green_bed,1.12,1.9-1.12
+green_candle,1.17,1.16-1.18
+green_carpet,1.6.1,pre_1_8
+green_concrete_powder,1.12,1.9-1.12
+green_dye,1.0.0,pre_1_8
+green_glazed_terracotta,1.12,1.9-1.12
+green_harness,1.21.5,1.19+
+green_stained_glass,1.7.2,pre_1_8
+green_stained_glass_pane,1.7.2,pre_1_8
+green_terracotta,1.6.1,pre_1_8
+green_wool,1.0.0,pre_1_8
+grindstone,1.14,1.13-1.15
+gunpowder,1.0.0,pre_1_8
+hay_block,1.6.1,pre_1_8
+heart_of_the_sea,1.13,1.13-1.15
+heavy_core,1.20.5,1.19+
+heavy_weighted_pressure_plate,1.5,pre_1_8
+honey_block,1.15,1.13-1.15
+honey_bottle,1.15,1.13-1.15
+honeycomb,1.15,1.13-1.15
+honeycomb_block,1.15,1.13-1.15
+hopper,1.5,pre_1_8
+hopper_minecart,1.5,pre_1_8
+host_armor_trim_smithing_template,1.20,1.19+
+ice,1.0.0,pre_1_8
+ink_sac,1.0.0,pre_1_8
+iron_axe,1.0.0,pre_1_8
+iron_bars,1.0.0,pre_1_8
+iron_block,1.0.0,pre_1_8
+iron_boots,1.0.0,pre_1_8
+iron_chain,1.16,1.16-1.18
+iron_chestplate,1.0.0,pre_1_8
+iron_door,1.0.0,pre_1_8
+iron_helmet,1.0.0,pre_1_8
+iron_hoe,1.0.0,pre_1_8
+iron_horse_armor,1.6.1,pre_1_8
+iron_ingot,1.0.0,pre_1_8
+iron_leggings,1.0.0,pre_1_8
+iron_nautilus_armor,1.21.9,1.19+
+iron_nugget,1.11,1.9-1.12
+iron_ore,1.0.0,pre_1_8
+iron_pickaxe,1.0.0,pre_1_8
+iron_shovel,1.0.0,pre_1_8
+iron_spear,1.21.9,1.19+
+iron_sword,1.0.0,pre_1_8
+iron_trapdoor,1.8,pre_1_8
+item_frame,1.4.2,pre_1_8
+jack_o_lantern,1.0.0,pre_1_8
+jukebox,1.0.0,pre_1_8
+jungle_boat,1.9,1.9-1.12
+jungle_button,1.13,1.13-1.15
+jungle_chest_boat,1.19,1.19+
+jungle_door,1.8,pre_1_8
+jungle_fence,1.8,pre_1_8
+jungle_fence_gate,1.8,pre_1_8
+jungle_hanging_sign,1.19.3,1.19+
+jungle_log,1.2.1,pre_1_8
 jungle_planks,1.2.4,pre_1_8
-jungle_pressure_plate,17w47a,1.13-1.15
-jungle_shelf,25w31a,1.19+
-jungle_sign,18w43a,1.13-1.15
-jungle_slab,12w17a,pre_1_8
-jungle_stairs,12w25a,pre_1_8
-jungle_trapdoor,17w47a,1.13-1.15
-jungle_wood,12w30d,pre_1_8
-kelp,18w07a,1.13-1.15
-ladder,Infdev 20100607,pre_1_8
-lantern,18w46a,1.13-1.15
-lapis_block,Beta 1.2,pre_1_8
-lapis_lazuli,Beta 1.2,pre_1_8
-lapis_ore,Beta 1.2,pre_1_8
-lead,13w16a,pre_1_8
-leaf_litter,25w02a,1.19+
-leather,Alpha v1.0.8,pre_1_8
-leather_boots,Indev 0.31 20091231-2147,pre_1_8
-leather_chestplate,Indev 0.31 20091231-2147,pre_1_8
-leather_helmet,Indev 0.31 20091231-2147,pre_1_8
-leather_horse_armor,19w08a,1.13-1.15
-leather_leggings,Indev 0.31 20091231-2147,pre_1_8
-lectern,18w44a,1.13-1.15
-lever,Alpha v1.0.1,pre_1_8
-light_blue_banner,14w30a,pre_1_8
-light_blue_bed,17w15a,1.9-1.12
-light_blue_candle,20w45a,1.16-1.18
-light_blue_carpet,13w16a,pre_1_8
-light_blue_concrete_powder,17w06a,1.9-1.12
-light_blue_dye,Beta 1.2,pre_1_8
-light_blue_glazed_terracotta,17w06a,1.9-1.12
-light_blue_harness,25w15a,1.19+
-light_blue_stained_glass,13w41a,pre_1_8
-light_blue_stained_glass_pane,13w41a,pre_1_8
-light_blue_terracotta,13w19a,pre_1_8
-light_blue_wool,Beta 1.2,pre_1_8
-light_gray_banner,14w30a,pre_1_8
-light_gray_bed,17w15a,1.9-1.12
-light_gray_candle,20w45a,1.16-1.18
-light_gray_carpet,13w16a,pre_1_8
-light_gray_concrete_powder,17w06a,1.9-1.12
-light_gray_dye,Beta 1.2,pre_1_8
-light_gray_glazed_terracotta,17w06a,1.9-1.12
-light_gray_harness,25w15a,1.19+
-light_gray_stained_glass,13w41a,pre_1_8
-light_gray_stained_glass_pane,13w41a,pre_1_8
-light_gray_terracotta,13w19a,pre_1_8
-light_gray_wool,Beta 1.2,pre_1_8
-light_weighted_pressure_plate,13w01a,pre_1_8
-lightning_rod,20w45a,1.16-1.18
-lilac,13w36a,pre_1_8
-lily_of_the_valley,18w43a,1.13-1.15
-lime_banner,14w30a,pre_1_8
-lime_bed,17w15a,1.9-1.12
-lime_candle,20w45a,1.16-1.18
-lime_carpet,13w16a,pre_1_8
-lime_concrete_powder,17w06a,1.9-1.12
-lime_dye,Beta 1.2,pre_1_8
-lime_glazed_terracotta,17w06a,1.9-1.12
-lime_harness,25w15a,1.19+
-lime_stained_glass,13w41a,pre_1_8
-lime_stained_glass_pane,13w41a,pre_1_8
-lime_terracotta,13w19a,pre_1_8
-lime_wool,Beta 1.2,pre_1_8
-lodestone,20w13a,1.16-1.18
-loom,18w43a,1.13-1.15
-mace,24w11a,1.19+
-magenta_banner,14w30a,pre_1_8
-magenta_bed,17w15a,1.9-1.12
-magenta_candle,20w45a,1.16-1.18
-magenta_carpet,13w16a,pre_1_8
-magenta_concrete_powder,17w06a,1.9-1.12
-magenta_dye,Beta 1.2,pre_1_8
-magenta_glazed_terracotta,17w06a,1.9-1.12
-magenta_harness,25w15a,1.19+
-magenta_stained_glass,13w41a,pre_1_8
-magenta_stained_glass_pane,13w41a,pre_1_8
-magenta_terracotta,13w19a,pre_1_8
-magenta_wool,Beta 1.2,pre_1_8
-magma_block,16w20a,1.9-1.12
-magma_cream,Beta 1.9 Prerelease 2,pre_1_8
-mangrove_boat,22w11a,1.19+
-mangrove_button,22w11a,1.19+
-mangrove_chest_boat,22w12a,1.19+
-mangrove_door,22w11a,1.19+
-mangrove_fence,22w11a,1.19+
-mangrove_fence_gate,22w11a,1.19+
-mangrove_hanging_sign,22w42a,1.19+
-mangrove_log,22w11a,1.19+
-mangrove_planks,22w11a,1.19+
-mangrove_pressure_plate,22w11a,1.19+
-mangrove_roots,22w11a,1.19+
-mangrove_shelf,25w31a,1.19+
-mangrove_sign,22w11a,1.19+
-mangrove_slab,22w11a,1.19+
-mangrove_stairs,22w11a,1.19+
-mangrove_trapdoor,22w11a,1.19+
-mangrove_wood,22w11a,1.19+
-map,12w34a,pre_1_8
-melon,Beta 1.8 Pre-release,pre_1_8
-melon_seeds,Beta 1.8 Pre-release,pre_1_8
-melon_slice,Beta 1.8 Pre-release,pre_1_8
-milk_bucket,Alpha v1.0.8,pre_1_8
-minecart,Infdev 20100618,pre_1_8
-mojang_banner_pattern,18w43a,1.13-1.15
-moss_block,21w05a,1.16-1.18
-moss_carpet,21w05a,1.16-1.18
-mossy_cobblestone,Classic 0.26 SURVIVAL TEST,pre_1_8
-mossy_cobblestone_slab,18w43a,1.13-1.15
-mossy_cobblestone_stairs,18w43a,1.13-1.15
-mossy_cobblestone_wall,12w34a,pre_1_8
-mossy_stone_brick_slab,18w43a,1.13-1.15
-mossy_stone_brick_stairs,18w43a,1.13-1.15
-mossy_stone_brick_wall,18w43a,1.13-1.15
-mossy_stone_bricks,Beta 1.8 Pre-release,pre_1_8
-mud,22w11a,1.19+
-mud_brick_slab,22w11a,1.19+
-mud_brick_stairs,22w11a,1.19+
-mud_brick_wall,22w11a,1.19+
-mud_bricks,22w11a,1.19+
-muddy_mangrove_roots,22w11a,1.19+
-mushroom_stew,Indev 0.31 20100129-2332,pre_1_8
-music_disc_5,22w16a,1.19+
-mutton,14w27a,pre_1_8
-name_tag,13w16b,pre_1_8
-nautilus_shell,18w15a,1.13-1.15
-nether_brick,13w01a,pre_1_8
-nether_brick_fence,Beta 1.9 Prerelease,pre_1_8
-nether_brick_slab,12w49a,pre_1_8
-nether_brick_stairs,Beta 1.9 Prerelease,pre_1_8
-nether_brick_wall,18w43a,1.13-1.15
-nether_bricks,Beta 1.9 Prerelease,pre_1_8
-nether_gold_ore,20w11a,1.16-1.18
-nether_quartz_ore,13w01a,pre_1_8
-nether_star,12w36a,pre_1_8
-nether_wart,Beta 1.9 Prerelease,pre_1_8
-nether_wart_block,16w20a,1.9-1.12
-netherite_axe,20w06a,1.16-1.18
-netherite_block,20w06a,1.16-1.18
-netherite_boots,20w06a,1.16-1.18
-netherite_chestplate,20w06a,1.16-1.18
-netherite_helmet,20w06a,1.16-1.18
-netherite_hoe,20w06a,1.16-1.18
-netherite_horse_armor,25w45a,1.19+
-netherite_ingot,20w06a,1.16-1.18
-netherite_leggings,20w06a,1.16-1.18
-netherite_nautilus_armor,25w41a,1.19+
-netherite_pickaxe,20w06a,1.16-1.18
-netherite_scrap,20w06a,1.16-1.18
-netherite_shovel,20w06a,1.16-1.18
-netherite_spear,25w41a,1.19+
-netherite_sword,20w06a,1.16-1.18
-netherite_upgrade_smithing_template,23w04a,1.19+
-netherrack,Alpha v1.2.0,pre_1_8
-note_block,Beta 1.2,pre_1_8
-oak_boat,Alpha v1.0.6,pre_1_8
-oak_button,12w34a,pre_1_8
-oak_chest_boat,22w12a,1.19+
-oak_door,Infdev 20100607,pre_1_8
-oak_fence,Alpha v1.0.17,pre_1_8
-oak_fence_gate,Beta 1.8 Pre-release,pre_1_8
-oak_hanging_sign,22w42a,1.19+
-oak_log,Classic 0.0.14a,pre_1_8
-oak_planks,pre-Classic rd-20090515,pre_1_8
-oak_pressure_plate,Alpha v1.0.1,pre_1_8
-oak_shelf,25w31a,1.19+
-oak_sign,Infdev 20100607,pre_1_8
-oak_slab,12w17a,pre_1_8
-oak_stairs,Infdev 20100629,pre_1_8
-oak_trapdoor,Beta 1.6 Test Build 3,pre_1_8
-oak_wood,12w30d,pre_1_8
-observer,16w39a,1.9-1.12
-obsidian,Classic 0.28,pre_1_8
-open_eyeblossom,24w44a,1.19+
-orange_banner,14w30a,pre_1_8
-orange_bed,17w15a,1.9-1.12
-orange_candle,20w45a,1.16-1.18
-orange_carpet,13w16a,pre_1_8
-orange_concrete_powder,17w06a,1.9-1.12
-orange_dye,Beta 1.2,pre_1_8
-orange_glazed_terracotta,17w06a,1.9-1.12
-orange_harness,25w15a,1.19+
-orange_stained_glass,13w41a,pre_1_8
-orange_stained_glass_pane,13w41a,pre_1_8
-orange_terracotta,13w19a,pre_1_8
-orange_tulip,13w36a,pre_1_8
-orange_wool,Beta 1.2,pre_1_8
-oxeye_daisy,13w36a,pre_1_8
-oxidized_chiseled_copper,23w43a,1.19+
-oxidized_copper,20w45a,1.16-1.18
-oxidized_copper_bars,25w32a,1.19+
-oxidized_copper_bulb,23w43a,1.19+
-oxidized_copper_chain,25w32a,1.19+
-oxidized_copper_chest,25w31a,1.19+
-oxidized_copper_door,23w43a,1.19+
-oxidized_copper_golem_statue,25w31a,1.19+
-oxidized_copper_grate,23w43a,1.19+
-oxidized_copper_lantern,25w32a,1.19+
-oxidized_copper_trapdoor,23w43a,1.19+
-oxidized_cut_copper,20w45a,1.16-1.18
-oxidized_cut_copper_slab,20w45a,1.16-1.18
-oxidized_cut_copper_stairs,20w45a,1.16-1.18
-oxidized_lightning_rod,25w31a,1.19+
-packed_ice,13w36a,pre_1_8
-packed_mud,22w11a,1.19+
-painting,Indev 20100223,pre_1_8
-pale_moss_block,24w40a,1.19+
-pale_moss_carpet,24w40a,1.19+
-pale_oak_boat,24w40a,1.19+
-pale_oak_button,24w40a,1.19+
-pale_oak_chest_boat,24w40a,1.19+
-pale_oak_door,24w40a,1.19+
-pale_oak_fence,24w40a,1.19+
-pale_oak_fence_gate,24w40a,1.19+
-pale_oak_hanging_sign,24w40a,1.19+
-pale_oak_log,24w40a,1.19+
-pale_oak_planks,24w40a,1.19+
-pale_oak_pressure_plate,24w40a,1.19+
-pale_oak_shelf,25w31a,1.19+
-pale_oak_sign,24w40a,1.19+
-pale_oak_slab,24w40a,1.19+
-pale_oak_stairs,24w40a,1.19+
-pale_oak_trapdoor,24w40a,1.19+
-pale_oak_wood,24w40a,1.19+
-paper,Alpha v1.0.11,pre_1_8
-peony,13w36a,pre_1_8
-pink_banner,14w30a,pre_1_8
-pink_bed,17w15a,1.9-1.12
-pink_candle,20w45a,1.16-1.18
-pink_carpet,13w16a,pre_1_8
-pink_concrete_powder,17w06a,1.9-1.12
-pink_dye,Beta 1.2,pre_1_8
-pink_glazed_terracotta,17w06a,1.9-1.12
-pink_harness,25w15a,1.19+
-pink_petals,23w07a,1.19+
-pink_stained_glass,13w41a,pre_1_8
-pink_stained_glass_pane,13w41a,pre_1_8
-pink_terracotta,13w19a,pre_1_8
-pink_tulip,13w36a,pre_1_8
-pink_wool,Beta 1.2,pre_1_8
-piston,Beta 1.7,pre_1_8
-pitcher_plant,23w12a,1.19+
-pointed_dripstone,20w48a,1.16-1.18
-polished_andesite,14w02a,pre_1_8
-polished_andesite_slab,18w43a,1.13-1.15
-polished_andesite_stairs,18w43a,1.13-1.15
-polished_basalt,20w12a,1.16-1.18
-polished_blackstone,20w15a,1.16-1.18
-polished_blackstone_brick_slab,20w15a,1.16-1.18
-polished_blackstone_brick_stairs,20w15a,1.16-1.18
-polished_blackstone_brick_wall,20w15a,1.16-1.18
-polished_blackstone_bricks,20w15a,1.16-1.18
-polished_blackstone_button,20w15a,1.16-1.18
-polished_blackstone_pressure_plate,20w15a,1.16-1.18
-polished_blackstone_slab,20w15a,1.16-1.18
-polished_blackstone_stairs,20w15a,1.16-1.18
-polished_blackstone_wall,20w15a,1.16-1.18
-polished_cinnabar,26.2-snapshot-1,1.19+
-polished_cinnabar_slab,26.2-snapshot-1,1.19+
-polished_cinnabar_stairs,26.2-snapshot-1,1.19+
-polished_cinnabar_wall,26.2-snapshot-1,1.19+
-polished_deepslate,21w07a,1.16-1.18
-polished_deepslate_slab,21w07a,1.16-1.18
-polished_deepslate_stairs,21w07a,1.16-1.18
-polished_deepslate_wall,21w07a,1.16-1.18
-polished_diorite,14w02a,pre_1_8
-polished_diorite_slab,18w43a,1.13-1.15
-polished_diorite_stairs,18w43a,1.13-1.15
-polished_granite,14w02a,pre_1_8
-polished_granite_slab,18w43a,1.13-1.15
-polished_granite_stairs,18w43a,1.13-1.15
-polished_sulfur,26.2-snapshot-1,1.19+
-polished_sulfur_slab,26.2-snapshot-1,1.19+
-polished_sulfur_stairs,26.2-snapshot-1,1.19+
-polished_sulfur_wall,26.2-snapshot-1,1.19+
-polished_tuff,23w43a,1.19+
-polished_tuff_slab,23w43a,1.19+
-polished_tuff_stairs,23w43a,1.19+
-polished_tuff_wall,23w43a,1.19+
-popped_chorus_fruit,15w31a,1.9-1.12
-poppy,Classic 0.0.20a,pre_1_8
-porkchop,Indev 20100219,pre_1_8
-potato,12w34a,pre_1_8
-potent_sulfur,26.2-snapshot-1,1.19+
-powered_rail,Beta 1.5,pre_1_8
-prismarine,14w25a,pre_1_8
-prismarine_brick_slab,18w07a,1.13-1.15
-prismarine_brick_stairs,18w07a,1.13-1.15
-prismarine_bricks,14w25a,pre_1_8
-prismarine_crystals,14w25a,pre_1_8
-prismarine_shard,14w25a,pre_1_8
-prismarine_slab,18w07a,1.13-1.15
-prismarine_stairs,18w07a,1.13-1.15
-prismarine_wall,18w43a,1.13-1.15
-pumpkin,17w47a,1.13-1.15
-pumpkin_pie,12w37a,pre_1_8
-pumpkin_seeds,Beta 1.8 Pre-release,pre_1_8
-purple_banner,14w30a,pre_1_8
-purple_bed,17w15a,1.9-1.12
-purple_candle,20w45a,1.16-1.18
-purple_carpet,13w16a,pre_1_8
-purple_concrete_powder,17w06a,1.9-1.12
-purple_dye,Beta 1.2,pre_1_8
-purple_glazed_terracotta,17w06a,1.9-1.12
-purple_harness,25w15a,1.19+
-purple_stained_glass,13w41a,pre_1_8
-purple_stained_glass_pane,13w41a,pre_1_8
-purple_terracotta,13w19a,pre_1_8
-purple_wool,Beta 1.2,pre_1_8
-purpur_block,15w31a,1.9-1.12
-purpur_pillar,15w31a,1.9-1.12
-purpur_slab,15w31a,1.9-1.12
-purpur_stairs,15w31a,1.9-1.12
-quartz,13w01a,pre_1_8
-quartz_block,13w02a,pre_1_8
-quartz_bricks,20w15a,1.16-1.18
-quartz_pillar,13w02a,pre_1_8
-quartz_slab,13w02a,pre_1_8
-quartz_stairs,13w02a,pre_1_8
-rabbit,14w27a,pre_1_8
-rabbit_hide,14w27a,pre_1_8
-rabbit_stew,14w27a,pre_1_8
-rail,Infdev 20100618,pre_1_8
-raiser_armor_trim_smithing_template,23w12a,1.19+
-raw_copper,21w14a,1.16-1.18
-raw_copper_block,21w15a,1.16-1.18
-raw_gold,21w14a,1.16-1.18
-raw_gold_block,21w15a,1.16-1.18
-raw_iron,21w14a,1.16-1.18
-raw_iron_block,21w15a,1.16-1.18
-recovery_compass,22w14a,1.19+
-red_banner,14w30a,pre_1_8
-red_bed,Beta 1.3,pre_1_8
-red_candle,20w45a,1.16-1.18
-red_carpet,13w16a,pre_1_8
-red_concrete_powder,17w06a,1.9-1.12
-red_dye,Beta 1.2,pre_1_8
-red_glazed_terracotta,17w06a,1.9-1.12
-red_harness,25w15a,1.19+
-red_mushroom,Classic 0.0.20a,pre_1_8
-red_nether_brick_slab,18w43a,1.13-1.15
-red_nether_brick_stairs,18w43a,1.13-1.15
-red_nether_brick_wall,18w43a,1.13-1.15
-red_nether_bricks,16w20a,1.9-1.12
-red_sand,13w39a,pre_1_8
-red_sandstone,14w32a,pre_1_8
-red_sandstone_slab,14w32a,pre_1_8
-red_sandstone_stairs,14w32a,pre_1_8
-red_sandstone_wall,18w43a,1.13-1.15
-red_stained_glass,13w41a,pre_1_8
-red_stained_glass_pane,13w41a,pre_1_8
-red_terracotta,13w19a,pre_1_8
-red_tulip,13w36a,pre_1_8
-red_wool,Beta 1.2,pre_1_8
-redstone,Alpha v1.0.1,pre_1_8
-redstone_block,13w01a,pre_1_8
-redstone_lamp,12w07a,pre_1_8
-redstone_ore,Alpha v1.0.1,pre_1_8
-redstone_torch,Alpha v1.0.1,pre_1_8
-repeater,Beta 1.3,pre_1_8
-resin_block,24w44a,1.19+
-resin_brick,24w44a,1.19+
-resin_brick_slab,24w44a,1.19+
-resin_brick_stairs,24w44a,1.19+
-resin_brick_wall,24w44a,1.19+
-resin_bricks,24w44a,1.19+
-resin_clump,24w44a,1.19+
-respawn_anchor,20w12a,1.16-1.18
-rib_armor_trim_smithing_template,23w04a,1.19+
-rose_bush,13w36a,pre_1_8
-saddle,Infdev 20100625-1917,pre_1_8
-salmon,13w36a,pre_1_8
-sand,Classic 0.0.14a,pre_1_8
-sandstone,Beta 1.2,pre_1_8
-sandstone_slab,Beta 1.3,pre_1_8
-sandstone_stairs,12w21a,pre_1_8
-sandstone_wall,18w43a,1.13-1.15
-scaffolding,18w45a,1.13-1.15
-sculk_sensor,20w49a,1.16-1.18
-sea_lantern,14w25a,pre_1_8
-sea_pickle,18w14b,1.13-1.15
-sentry_armor_trim_smithing_template,23w04a,1.19+
-shaper_armor_trim_smithing_template,23w12a,1.19+
-shears,Beta 1.7,pre_1_8
-shield,15w33c,1.9-1.12
-shulker_box,18w10b,1.13-1.15
-shulker_shell,16w39a,1.9-1.12
-silence_armor_trim_smithing_template,23w12a,1.19+
-skull_banner_pattern,18w43a,1.13-1.15
-slime_ball,Alpha v1.0.11,pre_1_8
-slime_block,14w02a,pre_1_8
-smithing_table,18w44a,1.13-1.15
-smoker,18w44a,1.13-1.15
-smooth_basalt,21w08a,1.16-1.18
-smooth_quartz,13w04a,pre_1_8
-smooth_quartz_slab,18w43a,1.13-1.15
-smooth_quartz_stairs,18w43a,1.13-1.15
-smooth_red_sandstone,14w32a,pre_1_8
-smooth_red_sandstone_slab,18w43a,1.13-1.15
-smooth_red_sandstone_stairs,18w43a,1.13-1.15
-smooth_sandstone,13w04a,pre_1_8
-smooth_sandstone_slab,18w43a,1.13-1.15
-smooth_sandstone_stairs,18w43a,1.13-1.15
-smooth_stone,Beta 1.3,pre_1_8
-smooth_stone_slab,Classic 0.26 SURVIVAL TEST,pre_1_8
-snout_armor_trim_smithing_template,23w04a,1.19+
-snow,Alpha v1.0.4,pre_1_8
-snow_block,Alpha v1.0.5,pre_1_8
-snowball,Alpha v1.0.5,pre_1_8
-soul_campfire,20w15a,1.16-1.18
-soul_lantern,20w06a,1.16-1.18
-soul_sand,Alpha v1.2.0,pre_1_8
-soul_torch,20w06a,1.16-1.18
-spectral_arrow,15w31a,1.9-1.12
-spider_eye,Beta 1.9 Prerelease 2,pre_1_8
-spire_armor_trim_smithing_template,23w04a,1.19+
-sponge,Classic 0.0.19a,pre_1_8
-spruce_boat,15w41a,1.9-1.12
-spruce_button,17w47a,1.13-1.15
-spruce_chest_boat,22w12a,1.19+
-spruce_door,14w32d,pre_1_8
-spruce_fence,14w32b,pre_1_8
-spruce_fence_gate,14w32b,pre_1_8
-spruce_hanging_sign,22w42a,1.19+
-spruce_log,Beta 1.2,pre_1_8
+jungle_pressure_plate,1.13,1.13-1.15
+jungle_shelf,1.21.9,1.19+
+jungle_sign,1.14,1.13-1.15
+jungle_slab,1.3.1,pre_1_8
+jungle_stairs,1.3.1,pre_1_8
+jungle_trapdoor,1.13,1.13-1.15
+jungle_wood,1.3.1,pre_1_8
+kelp,1.13,1.13-1.15
+ladder,1.0.0,pre_1_8
+lantern,1.14,1.13-1.15
+lapis_block,1.0.0,pre_1_8
+lapis_lazuli,1.0.0,pre_1_8
+lapis_ore,1.0.0,pre_1_8
+lead,1.6.1,pre_1_8
+leaf_litter,1.21.5,1.19+
+leather,1.0.0,pre_1_8
+leather_boots,1.0.0,pre_1_8
+leather_chestplate,1.0.0,pre_1_8
+leather_helmet,1.0.0,pre_1_8
+leather_horse_armor,1.14,1.13-1.15
+leather_leggings,1.0.0,pre_1_8
+lectern,1.14,1.13-1.15
+lever,1.0.0,pre_1_8
+light_blue_banner,1.8,pre_1_8
+light_blue_bed,1.12,1.9-1.12
+light_blue_candle,1.17,1.16-1.18
+light_blue_carpet,1.6.1,pre_1_8
+light_blue_concrete_powder,1.12,1.9-1.12
+light_blue_dye,1.0.0,pre_1_8
+light_blue_glazed_terracotta,1.12,1.9-1.12
+light_blue_harness,1.21.5,1.19+
+light_blue_stained_glass,1.7.2,pre_1_8
+light_blue_stained_glass_pane,1.7.2,pre_1_8
+light_blue_terracotta,1.6.1,pre_1_8
+light_blue_wool,1.0.0,pre_1_8
+light_gray_banner,1.8,pre_1_8
+light_gray_bed,1.12,1.9-1.12
+light_gray_candle,1.17,1.16-1.18
+light_gray_carpet,1.6.1,pre_1_8
+light_gray_concrete_powder,1.12,1.9-1.12
+light_gray_dye,1.0.0,pre_1_8
+light_gray_glazed_terracotta,1.12,1.9-1.12
+light_gray_harness,1.21.5,1.19+
+light_gray_stained_glass,1.7.2,pre_1_8
+light_gray_stained_glass_pane,1.7.2,pre_1_8
+light_gray_terracotta,1.6.1,pre_1_8
+light_gray_wool,1.0.0,pre_1_8
+light_weighted_pressure_plate,1.5,pre_1_8
+lightning_rod,1.17,1.16-1.18
+lilac,1.6.1,pre_1_8
+lily_of_the_valley,1.14,1.13-1.15
+lime_banner,1.8,pre_1_8
+lime_bed,1.12,1.9-1.12
+lime_candle,1.17,1.16-1.18
+lime_carpet,1.6.1,pre_1_8
+lime_concrete_powder,1.12,1.9-1.12
+lime_dye,1.0.0,pre_1_8
+lime_glazed_terracotta,1.12,1.9-1.12
+lime_harness,1.21.5,1.19+
+lime_stained_glass,1.7.2,pre_1_8
+lime_stained_glass_pane,1.7.2,pre_1_8
+lime_terracotta,1.6.1,pre_1_8
+lime_wool,1.0.0,pre_1_8
+lodestone,1.16,1.16-1.18
+loom,1.14,1.13-1.15
+mace,1.20.5,1.19+
+magenta_banner,1.8,pre_1_8
+magenta_bed,1.12,1.9-1.12
+magenta_candle,1.17,1.16-1.18
+magenta_carpet,1.6.1,pre_1_8
+magenta_concrete_powder,1.12,1.9-1.12
+magenta_dye,1.0.0,pre_1_8
+magenta_glazed_terracotta,1.12,1.9-1.12
+magenta_harness,1.21.5,1.19+
+magenta_stained_glass,1.7.2,pre_1_8
+magenta_stained_glass_pane,1.7.2,pre_1_8
+magenta_terracotta,1.6.1,pre_1_8
+magenta_wool,1.0.0,pre_1_8
+magma_block,1.10,1.9-1.12
+magma_cream,1.0.0,pre_1_8
+mangrove_boat,1.19,1.19+
+mangrove_button,1.19,1.19+
+mangrove_chest_boat,1.19,1.19+
+mangrove_door,1.19,1.19+
+mangrove_fence,1.19,1.19+
+mangrove_fence_gate,1.19,1.19+
+mangrove_hanging_sign,1.19.3,1.19+
+mangrove_log,1.19,1.19+
+mangrove_planks,1.19,1.19+
+mangrove_pressure_plate,1.19,1.19+
+mangrove_roots,1.19,1.19+
+mangrove_shelf,1.21.9,1.19+
+mangrove_sign,1.19,1.19+
+mangrove_slab,1.19,1.19+
+mangrove_stairs,1.19,1.19+
+mangrove_trapdoor,1.19,1.19+
+mangrove_wood,1.19,1.19+
+map,1.4.2,pre_1_8
+melon,1.0.0,pre_1_8
+melon_seeds,1.0.0,pre_1_8
+melon_slice,1.0.0,pre_1_8
+milk_bucket,1.0.0,pre_1_8
+minecart,1.0.0,pre_1_8
+mojang_banner_pattern,1.14,1.13-1.15
+moss_block,1.17,1.16-1.18
+moss_carpet,1.17,1.16-1.18
+mossy_cobblestone,1.0.0,pre_1_8
+mossy_cobblestone_slab,1.14,1.13-1.15
+mossy_cobblestone_stairs,1.14,1.13-1.15
+mossy_cobblestone_wall,1.4.2,pre_1_8
+mossy_stone_brick_slab,1.14,1.13-1.15
+mossy_stone_brick_stairs,1.14,1.13-1.15
+mossy_stone_brick_wall,1.14,1.13-1.15
+mossy_stone_bricks,1.0.0,pre_1_8
+mud,1.19,1.19+
+mud_brick_slab,1.19,1.19+
+mud_brick_stairs,1.19,1.19+
+mud_brick_wall,1.19,1.19+
+mud_bricks,1.19,1.19+
+muddy_mangrove_roots,1.19,1.19+
+mushroom_stew,1.0.0,pre_1_8
+music_disc_5,1.19,1.19+
+mutton,1.8,pre_1_8
+name_tag,1.6.1,pre_1_8
+nautilus_shell,1.13,1.13-1.15
+nether_brick,1.5,pre_1_8
+nether_brick_fence,1.0.0,pre_1_8
+nether_brick_slab,1.4.6,pre_1_8
+nether_brick_stairs,1.0.0,pre_1_8
+nether_brick_wall,1.14,1.13-1.15
+nether_bricks,1.0.0,pre_1_8
+nether_gold_ore,1.16,1.16-1.18
+nether_quartz_ore,1.5,pre_1_8
+nether_star,1.4.2,pre_1_8
+nether_wart,1.0.0,pre_1_8
+nether_wart_block,1.10,1.9-1.12
+netherite_axe,1.16,1.16-1.18
+netherite_block,1.16,1.16-1.18
+netherite_boots,1.16,1.16-1.18
+netherite_chestplate,1.16,1.16-1.18
+netherite_helmet,1.16,1.16-1.18
+netherite_hoe,1.16,1.16-1.18
+netherite_horse_armor,1.21.9,1.19+
+netherite_ingot,1.16,1.16-1.18
+netherite_leggings,1.16,1.16-1.18
+netherite_nautilus_armor,1.21.9,1.19+
+netherite_pickaxe,1.16,1.16-1.18
+netherite_scrap,1.16,1.16-1.18
+netherite_shovel,1.16,1.16-1.18
+netherite_spear,1.21.9,1.19+
+netherite_sword,1.16,1.16-1.18
+netherite_upgrade_smithing_template,1.19.4,1.19+
+netherrack,1.0.0,pre_1_8
+note_block,1.0.0,pre_1_8
+oak_boat,1.0.0,pre_1_8
+oak_button,1.4.2,pre_1_8
+oak_chest_boat,1.19,1.19+
+oak_door,1.0.0,pre_1_8
+oak_fence,1.0.0,pre_1_8
+oak_fence_gate,1.0.0,pre_1_8
+oak_hanging_sign,1.19.3,1.19+
+oak_log,1.0.0,pre_1_8
+oak_planks,1.0.0,pre_1_8
+oak_pressure_plate,1.0.0,pre_1_8
+oak_shelf,1.21.9,1.19+
+oak_sign,1.0.0,pre_1_8
+oak_slab,1.3.1,pre_1_8
+oak_stairs,1.0.0,pre_1_8
+oak_trapdoor,1.0.0,pre_1_8
+oak_wood,1.3.1,pre_1_8
+observer,1.11,1.9-1.12
+obsidian,1.0.0,pre_1_8
+open_eyeblossom,1.21.2,1.19+
+orange_banner,1.8,pre_1_8
+orange_bed,1.12,1.9-1.12
+orange_candle,1.17,1.16-1.18
+orange_carpet,1.6.1,pre_1_8
+orange_concrete_powder,1.12,1.9-1.12
+orange_dye,1.0.0,pre_1_8
+orange_glazed_terracotta,1.12,1.9-1.12
+orange_harness,1.21.5,1.19+
+orange_stained_glass,1.7.2,pre_1_8
+orange_stained_glass_pane,1.7.2,pre_1_8
+orange_terracotta,1.6.1,pre_1_8
+orange_tulip,1.6.1,pre_1_8
+orange_wool,1.0.0,pre_1_8
+oxeye_daisy,1.6.1,pre_1_8
+oxidized_chiseled_copper,1.20.3,1.19+
+oxidized_copper,1.17,1.16-1.18
+oxidized_copper_bars,1.21.9,1.19+
+oxidized_copper_bulb,1.20.3,1.19+
+oxidized_copper_chain,1.21.9,1.19+
+oxidized_copper_chest,1.21.9,1.19+
+oxidized_copper_door,1.20.3,1.19+
+oxidized_copper_golem_statue,1.21.9,1.19+
+oxidized_copper_grate,1.20.3,1.19+
+oxidized_copper_lantern,1.21.9,1.19+
+oxidized_copper_trapdoor,1.20.3,1.19+
+oxidized_cut_copper,1.17,1.16-1.18
+oxidized_cut_copper_slab,1.17,1.16-1.18
+oxidized_cut_copper_stairs,1.17,1.16-1.18
+oxidized_lightning_rod,1.21.9,1.19+
+packed_ice,1.6.1,pre_1_8
+packed_mud,1.19,1.19+
+painting,1.0.0,pre_1_8
+pale_moss_block,1.21.2,1.19+
+pale_moss_carpet,1.21.2,1.19+
+pale_oak_boat,1.21.2,1.19+
+pale_oak_button,1.21.2,1.19+
+pale_oak_chest_boat,1.21.2,1.19+
+pale_oak_door,1.21.2,1.19+
+pale_oak_fence,1.21.2,1.19+
+pale_oak_fence_gate,1.21.2,1.19+
+pale_oak_hanging_sign,1.21.2,1.19+
+pale_oak_log,1.21.2,1.19+
+pale_oak_planks,1.21.2,1.19+
+pale_oak_pressure_plate,1.21.2,1.19+
+pale_oak_shelf,1.21.9,1.19+
+pale_oak_sign,1.21.2,1.19+
+pale_oak_slab,1.21.2,1.19+
+pale_oak_stairs,1.21.2,1.19+
+pale_oak_trapdoor,1.21.2,1.19+
+pale_oak_wood,1.21.2,1.19+
+paper,1.0.0,pre_1_8
+peony,1.6.1,pre_1_8
+pink_banner,1.8,pre_1_8
+pink_bed,1.12,1.9-1.12
+pink_candle,1.17,1.16-1.18
+pink_carpet,1.6.1,pre_1_8
+pink_concrete_powder,1.12,1.9-1.12
+pink_dye,1.0.0,pre_1_8
+pink_glazed_terracotta,1.12,1.9-1.12
+pink_harness,1.21.5,1.19+
+pink_petals,1.19.4,1.19+
+pink_stained_glass,1.7.2,pre_1_8
+pink_stained_glass_pane,1.7.2,pre_1_8
+pink_terracotta,1.6.1,pre_1_8
+pink_tulip,1.6.1,pre_1_8
+pink_wool,1.0.0,pre_1_8
+piston,1.0.0,pre_1_8
+pitcher_plant,1.20,1.19+
+pointed_dripstone,1.17,1.16-1.18
+polished_andesite,1.7.4,pre_1_8
+polished_andesite_slab,1.14,1.13-1.15
+polished_andesite_stairs,1.14,1.13-1.15
+polished_basalt,1.16,1.16-1.18
+polished_blackstone,1.16,1.16-1.18
+polished_blackstone_brick_slab,1.16,1.16-1.18
+polished_blackstone_brick_stairs,1.16,1.16-1.18
+polished_blackstone_brick_wall,1.16,1.16-1.18
+polished_blackstone_bricks,1.16,1.16-1.18
+polished_blackstone_button,1.16,1.16-1.18
+polished_blackstone_pressure_plate,1.16,1.16-1.18
+polished_blackstone_slab,1.16,1.16-1.18
+polished_blackstone_stairs,1.16,1.16-1.18
+polished_blackstone_wall,1.16,1.16-1.18
+polished_cinnabar,26.2,1.19+
+polished_cinnabar_slab,26.2,1.19+
+polished_cinnabar_stairs,26.2,1.19+
+polished_cinnabar_wall,26.2,1.19+
+polished_deepslate,1.17,1.16-1.18
+polished_deepslate_slab,1.17,1.16-1.18
+polished_deepslate_stairs,1.17,1.16-1.18
+polished_deepslate_wall,1.17,1.16-1.18
+polished_diorite,1.7.4,pre_1_8
+polished_diorite_slab,1.14,1.13-1.15
+polished_diorite_stairs,1.14,1.13-1.15
+polished_granite,1.7.4,pre_1_8
+polished_granite_slab,1.14,1.13-1.15
+polished_granite_stairs,1.14,1.13-1.15
+polished_sulfur,26.2,1.19+
+polished_sulfur_slab,26.2,1.19+
+polished_sulfur_stairs,26.2,1.19+
+polished_sulfur_wall,26.2,1.19+
+polished_tuff,1.20.3,1.19+
+polished_tuff_slab,1.20.3,1.19+
+polished_tuff_stairs,1.20.3,1.19+
+polished_tuff_wall,1.20.3,1.19+
+popped_chorus_fruit,1.9,1.9-1.12
+poppy,1.0.0,pre_1_8
+porkchop,1.0.0,pre_1_8
+potato,1.4.2,pre_1_8
+potent_sulfur,26.2,1.19+
+powered_rail,1.0.0,pre_1_8
+prismarine,1.8,pre_1_8
+prismarine_brick_slab,1.13,1.13-1.15
+prismarine_brick_stairs,1.13,1.13-1.15
+prismarine_bricks,1.8,pre_1_8
+prismarine_crystals,1.8,pre_1_8
+prismarine_shard,1.8,pre_1_8
+prismarine_slab,1.13,1.13-1.15
+prismarine_stairs,1.13,1.13-1.15
+prismarine_wall,1.14,1.13-1.15
+pumpkin,1.13,1.13-1.15
+pumpkin_pie,1.4.2,pre_1_8
+pumpkin_seeds,1.0.0,pre_1_8
+purple_banner,1.8,pre_1_8
+purple_bed,1.12,1.9-1.12
+purple_candle,1.17,1.16-1.18
+purple_carpet,1.6.1,pre_1_8
+purple_concrete_powder,1.12,1.9-1.12
+purple_dye,1.0.0,pre_1_8
+purple_glazed_terracotta,1.12,1.9-1.12
+purple_harness,1.21.5,1.19+
+purple_stained_glass,1.7.2,pre_1_8
+purple_stained_glass_pane,1.7.2,pre_1_8
+purple_terracotta,1.6.1,pre_1_8
+purple_wool,1.0.0,pre_1_8
+purpur_block,1.9,1.9-1.12
+purpur_pillar,1.9,1.9-1.12
+purpur_slab,1.9,1.9-1.12
+purpur_stairs,1.9,1.9-1.12
+quartz,1.5,pre_1_8
+quartz_block,1.5,pre_1_8
+quartz_bricks,1.16,1.16-1.18
+quartz_pillar,1.5,pre_1_8
+quartz_slab,1.5,pre_1_8
+quartz_stairs,1.5,pre_1_8
+rabbit,1.8,pre_1_8
+rabbit_hide,1.8,pre_1_8
+rabbit_stew,1.8,pre_1_8
+rail,1.0.0,pre_1_8
+raiser_armor_trim_smithing_template,1.20,1.19+
+raw_copper,1.17,1.16-1.18
+raw_copper_block,1.17,1.16-1.18
+raw_gold,1.17,1.16-1.18
+raw_gold_block,1.17,1.16-1.18
+raw_iron,1.17,1.16-1.18
+raw_iron_block,1.17,1.16-1.18
+recovery_compass,1.19,1.19+
+red_banner,1.8,pre_1_8
+red_bed,1.0.0,pre_1_8
+red_candle,1.17,1.16-1.18
+red_carpet,1.6.1,pre_1_8
+red_concrete_powder,1.12,1.9-1.12
+red_dye,1.0.0,pre_1_8
+red_glazed_terracotta,1.12,1.9-1.12
+red_harness,1.21.5,1.19+
+red_mushroom,1.0.0,pre_1_8
+red_nether_brick_slab,1.14,1.13-1.15
+red_nether_brick_stairs,1.14,1.13-1.15
+red_nether_brick_wall,1.14,1.13-1.15
+red_nether_bricks,1.10,1.9-1.12
+red_sand,1.7.2,pre_1_8
+red_sandstone,1.8,pre_1_8
+red_sandstone_slab,1.8,pre_1_8
+red_sandstone_stairs,1.8,pre_1_8
+red_sandstone_wall,1.14,1.13-1.15
+red_stained_glass,1.7.2,pre_1_8
+red_stained_glass_pane,1.7.2,pre_1_8
+red_terracotta,1.6.1,pre_1_8
+red_tulip,1.6.1,pre_1_8
+red_wool,1.0.0,pre_1_8
+redstone,1.0.0,pre_1_8
+redstone_block,1.5,pre_1_8
+redstone_lamp,1.2.1,pre_1_8
+redstone_ore,1.0.0,pre_1_8
+redstone_torch,1.0.0,pre_1_8
+repeater,1.0.0,pre_1_8
+resin_block,1.21.2,1.19+
+resin_brick,1.21.2,1.19+
+resin_brick_slab,1.21.2,1.19+
+resin_brick_stairs,1.21.2,1.19+
+resin_brick_wall,1.21.2,1.19+
+resin_bricks,1.21.2,1.19+
+resin_clump,1.21.2,1.19+
+respawn_anchor,1.16,1.16-1.18
+rib_armor_trim_smithing_template,1.19.4,1.19+
+rose_bush,1.6.1,pre_1_8
+saddle,1.0.0,pre_1_8
+salmon,1.6.1,pre_1_8
+sand,1.0.0,pre_1_8
+sandstone,1.0.0,pre_1_8
+sandstone_slab,1.0.0,pre_1_8
+sandstone_stairs,1.3.1,pre_1_8
+sandstone_wall,1.14,1.13-1.15
+scaffolding,1.14,1.13-1.15
+sculk_sensor,1.17,1.16-1.18
+sea_lantern,1.8,pre_1_8
+sea_pickle,1.13,1.13-1.15
+sentry_armor_trim_smithing_template,1.19.4,1.19+
+shaper_armor_trim_smithing_template,1.20,1.19+
+shears,1.0.0,pre_1_8
+shield,1.9,1.9-1.12
+shulker_box,1.13,1.13-1.15
+shulker_shell,1.11,1.9-1.12
+silence_armor_trim_smithing_template,1.20,1.19+
+skull_banner_pattern,1.14,1.13-1.15
+slime_ball,1.0.0,pre_1_8
+slime_block,1.7.4,pre_1_8
+smithing_table,1.14,1.13-1.15
+smoker,1.14,1.13-1.15
+smooth_basalt,1.17,1.16-1.18
+smooth_quartz,1.5,pre_1_8
+smooth_quartz_slab,1.14,1.13-1.15
+smooth_quartz_stairs,1.14,1.13-1.15
+smooth_red_sandstone,1.8,pre_1_8
+smooth_red_sandstone_slab,1.14,1.13-1.15
+smooth_red_sandstone_stairs,1.14,1.13-1.15
+smooth_sandstone,1.5,pre_1_8
+smooth_sandstone_slab,1.14,1.13-1.15
+smooth_sandstone_stairs,1.14,1.13-1.15
+smooth_stone,1.0.0,pre_1_8
+smooth_stone_slab,1.0.0,pre_1_8
+snout_armor_trim_smithing_template,1.19.4,1.19+
+snow,1.0.0,pre_1_8
+snow_block,1.0.0,pre_1_8
+snowball,1.0.0,pre_1_8
+soul_campfire,1.16,1.16-1.18
+soul_lantern,1.16,1.16-1.18
+soul_sand,1.0.0,pre_1_8
+soul_torch,1.16,1.16-1.18
+spectral_arrow,1.9,1.9-1.12
+spider_eye,1.0.0,pre_1_8
+spire_armor_trim_smithing_template,1.19.4,1.19+
+sponge,1.0.0,pre_1_8
+spruce_boat,1.9,1.9-1.12
+spruce_button,1.13,1.13-1.15
+spruce_chest_boat,1.19,1.19+
+spruce_door,1.8,pre_1_8
+spruce_fence,1.8,pre_1_8
+spruce_fence_gate,1.8,pre_1_8
+spruce_hanging_sign,1.19.3,1.19+
+spruce_log,1.0.0,pre_1_8
 spruce_planks,1.2.4,pre_1_8
-spruce_pressure_plate,17w47a,1.13-1.15
-spruce_shelf,25w31a,1.19+
-spruce_sign,18w43a,1.13-1.15
-spruce_slab,12w17a,pre_1_8
-spruce_stairs,12w25a,pre_1_8
-spruce_trapdoor,17w47a,1.13-1.15
-spruce_wood,12w30d,pre_1_8
-spyglass,20w45a,1.16-1.18
-stick,Indev 0.31 20100129-1447,pre_1_8
-sticky_piston,Beta 1.7,pre_1_8
+spruce_pressure_plate,1.13,1.13-1.15
+spruce_shelf,1.21.9,1.19+
+spruce_sign,1.14,1.13-1.15
+spruce_slab,1.3.1,pre_1_8
+spruce_stairs,1.3.1,pre_1_8
+spruce_trapdoor,1.13,1.13-1.15
+spruce_wood,1.3.1,pre_1_8
+spyglass,1.17,1.16-1.18
+stick,1.0.0,pre_1_8
+sticky_piston,1.0.0,pre_1_8
 stone,Cave game tech test,pre_1_8
-stone_axe,Indev 0.31 20100128-2200,pre_1_8
-stone_brick_slab,Beta 1.8 Pre-release,pre_1_8
-stone_brick_stairs,Beta 1.8 Pre-release,pre_1_8
-stone_brick_wall,18w43a,1.13-1.15
-stone_bricks,Beta 1.8 Pre-release,pre_1_8
-stone_button,Alpha v1.0.1,pre_1_8
-stone_hoe,Indev 20100206-2034,pre_1_8
-stone_pickaxe,Indev 0.31 20100128-2200,pre_1_8
-stone_pressure_plate,Alpha v1.0.1,pre_1_8
-stone_shovel,Indev 0.31 20100128-2200,pre_1_8
-stone_slab,18w43a,1.13-1.15
-stone_spear,25w41a,1.19+
-stone_stairs,18w43a,1.13-1.15
-stone_sword,Indev 0.31 20100128-2200,pre_1_8
-stonecutter,18w44a,1.13-1.15
-string,Indev 0.31 20100130,pre_1_8
-stripped_acacia_log,18w07a,1.13-1.15
-stripped_acacia_wood,1.13-pre2,1.13-1.15
-stripped_bamboo_block,22w45a,1.19+
-stripped_birch_log,18w07a,1.13-1.15
-stripped_birch_wood,1.13-pre2,1.13-1.15
-stripped_cherry_log,23w07a,1.19+
-stripped_cherry_wood,23w07a,1.19+
-stripped_crimson_hyphae,20w10a,1.16-1.18
-stripped_crimson_stem,20w06a,1.16-1.18
-stripped_dark_oak_log,18w07a,1.13-1.15
-stripped_dark_oak_wood,1.13-pre2,1.13-1.15
-stripped_jungle_log,18w07a,1.13-1.15
-stripped_jungle_wood,1.13-pre2,1.13-1.15
-stripped_mangrove_log,22w11a,1.19+
-stripped_mangrove_wood,22w11a,1.19+
-stripped_oak_log,18w07a,1.13-1.15
-stripped_oak_wood,1.13-pre2,1.13-1.15
-stripped_pale_oak_log,24w40a,1.19+
-stripped_pale_oak_wood,24w40a,1.19+
-stripped_spruce_log,18w07a,1.13-1.15
-stripped_spruce_wood,1.13-pre2,1.13-1.15
-stripped_warped_hyphae,20w10a,1.16-1.18
-stripped_warped_stem,20w06a,1.16-1.18
-sugar,Beta 1.2,pre_1_8
-sugar_cane,Alpha v1.0.11,pre_1_8
-sulfur,26.2-snapshot-1,1.19+
-sulfur_brick_slab,26.2-snapshot-1,1.19+
-sulfur_brick_stairs,26.2-snapshot-1,1.19+
-sulfur_brick_wall,26.2-snapshot-1,1.19+
-sulfur_bricks,26.2-snapshot-1,1.19+
-sulfur_slab,26.2-snapshot-1,1.19+
-sulfur_spike,26.2-snapshot-3,1.19+
-sulfur_stairs,26.2-snapshot-1,1.19+
-sulfur_wall,26.2-snapshot-1,1.19+
-sunflower,13w36a,pre_1_8
-suspicious_stew,18w43a,1.13-1.15
-target,20w09a,1.16-1.18
-terracotta,13w17a,pre_1_8
-tide_armor_trim_smithing_template,23w04a,1.19+
-tinted_glass,20w45a,1.16-1.18
-tnt,Classic 0.26 SURVIVAL TEST,pre_1_8
-tnt_minecart,13w02a,pre_1_8
-torch,Indev 0.31 20091223-1459,pre_1_8
-torchflower,23w07a,1.19+
-trapped_chest,13w01a,pre_1_8
-tripwire_hook,12w22a,pre_1_8
-tuff,20w45a,1.16-1.18
-tuff_brick_slab,23w43a,1.19+
-tuff_brick_stairs,23w43a,1.19+
-tuff_brick_wall,23w43a,1.19+
-tuff_bricks,23w43a,1.19+
-tuff_slab,23w43a,1.19+
-tuff_stairs,23w43a,1.19+
-tuff_wall,23w43a,1.19+
-turtle_helmet,18w07a,1.13-1.15
-turtle_scute,18w07a,1.13-1.15
-vex_armor_trim_smithing_template,23w04a,1.19+
-vine,Beta 1.8 Pre-release,pre_1_8
-ward_armor_trim_smithing_template,23w04a,1.19+
-warped_button,20w06a,1.16-1.18
-warped_door,20w06a,1.16-1.18
-warped_fence,20w06a,1.16-1.18
-warped_fence_gate,20w06a,1.16-1.18
-warped_fungus,20w06a,1.16-1.18
-warped_fungus_on_a_stick,20w13a,1.16-1.18
-warped_hanging_sign,22w42a,1.19+
-warped_hyphae,20w10a,1.16-1.18
-warped_planks,20w06a,1.16-1.18
-warped_pressure_plate,20w06a,1.16-1.18
-warped_shelf,25w31a,1.19+
-warped_sign,20w06a,1.16-1.18
-warped_slab,20w06a,1.16-1.18
-warped_stairs,20w06a,1.16-1.18
-warped_stem,20w06a,1.16-1.18
-warped_trapdoor,20w06a,1.16-1.18
-waxed_chiseled_copper,23w43a,1.19+
-waxed_copper_bars,25w32a,1.19+
-waxed_copper_block,20w45a,1.16-1.18
-waxed_copper_bulb,23w43a,1.19+
-waxed_copper_chain,25w32a,1.19+
-waxed_copper_chest,25w31a,1.19+
-waxed_copper_door,23w43a,1.19+
-waxed_copper_golem_statue,25w31a,1.19+
-waxed_copper_grate,23w43a,1.19+
-waxed_copper_lantern,25w32a,1.19+
-waxed_copper_trapdoor,23w43a,1.19+
-waxed_cut_copper,20w45a,1.16-1.18
-waxed_cut_copper_slab,20w45a,1.16-1.18
-waxed_cut_copper_stairs,20w45a,1.16-1.18
-waxed_exposed_chiseled_copper,23w43a,1.19+
-waxed_exposed_copper,20w45a,1.16-1.18
-waxed_exposed_copper_bars,25w32a,1.19+
-waxed_exposed_copper_bulb,23w43a,1.19+
-waxed_exposed_copper_chain,25w32a,1.19+
-waxed_exposed_copper_chest,25w31a,1.19+
-waxed_exposed_copper_door,23w43a,1.19+
-waxed_exposed_copper_golem_statue,25w31a,1.19+
-waxed_exposed_copper_grate,23w43a,1.19+
-waxed_exposed_copper_lantern,25w32a,1.19+
-waxed_exposed_copper_trapdoor,23w43a,1.19+
-waxed_exposed_cut_copper,20w45a,1.16-1.18
-waxed_exposed_cut_copper_slab,20w45a,1.16-1.18
-waxed_exposed_cut_copper_stairs,20w45a,1.16-1.18
-waxed_exposed_lightning_rod,25w31a,1.19+
-waxed_lightning_rod,25w31a,1.19+
-waxed_oxidized_chiseled_copper,23w43a,1.19+
-waxed_oxidized_copper,21w14a,1.16-1.18
-waxed_oxidized_copper_bars,25w32a,1.19+
-waxed_oxidized_copper_bulb,23w43a,1.19+
-waxed_oxidized_copper_chain,25w32a,1.19+
-waxed_oxidized_copper_chest,25w31a,1.19+
-waxed_oxidized_copper_door,23w43a,1.19+
-waxed_oxidized_copper_golem_statue,25w31a,1.19+
-waxed_oxidized_copper_grate,23w43a,1.19+
-waxed_oxidized_copper_lantern,25w32a,1.19+
-waxed_oxidized_copper_trapdoor,23w43a,1.19+
-waxed_oxidized_cut_copper,21w14a,1.16-1.18
-waxed_oxidized_cut_copper_slab,21w14a,1.16-1.18
-waxed_oxidized_cut_copper_stairs,21w14a,1.16-1.18
-waxed_oxidized_lightning_rod,25w31a,1.19+
-waxed_weathered_chiseled_copper,23w43a,1.19+
-waxed_weathered_copper,20w45a,1.16-1.18
-waxed_weathered_copper_bars,25w32a,1.19+
-waxed_weathered_copper_bulb,23w43a,1.19+
-waxed_weathered_copper_chain,25w32a,1.19+
-waxed_weathered_copper_chest,25w31a,1.19+
-waxed_weathered_copper_door,23w43a,1.19+
-waxed_weathered_copper_golem_statue,25w31a,1.19+
-waxed_weathered_copper_grate,23w43a,1.19+
-waxed_weathered_copper_lantern,25w32a,1.19+
-waxed_weathered_copper_trapdoor,23w43a,1.19+
-waxed_weathered_cut_copper,20w45a,1.16-1.18
-waxed_weathered_cut_copper_slab,20w45a,1.16-1.18
-waxed_weathered_cut_copper_stairs,20w45a,1.16-1.18
-waxed_weathered_lightning_rod,25w31a,1.19+
-wayfinder_armor_trim_smithing_template,23w12a,1.19+
-weathered_chiseled_copper,23w43a,1.19+
-weathered_copper,20w45a,1.16-1.18
-weathered_copper_bars,25w32a,1.19+
-weathered_copper_bulb,23w43a,1.19+
-weathered_copper_chain,25w32a,1.19+
-weathered_copper_chest,25w31a,1.19+
-weathered_copper_door,23w43a,1.19+
-weathered_copper_golem_statue,25w31a,1.19+
-weathered_copper_grate,23w43a,1.19+
-weathered_copper_lantern,25w32a,1.19+
-weathered_copper_trapdoor,23w43a,1.19+
-weathered_cut_copper,20w45a,1.16-1.18
-weathered_cut_copper_slab,20w45a,1.16-1.18
-weathered_cut_copper_stairs,20w45a,1.16-1.18
-weathered_lightning_rod,25w31a,1.19+
-wet_sponge,14w25a,pre_1_8
-wheat,Indev 20100206-2034,pre_1_8
-white_banner,14w30a,pre_1_8
-white_bed,17w15a,1.9-1.12
-white_candle,20w45a,1.16-1.18
-white_carpet,13w16a,pre_1_8
-white_concrete_powder,17w06a,1.9-1.12
-white_dye,18w43a,1.13-1.15
-white_glazed_terracotta,17w06a,1.9-1.12
-white_harness,25w15a,1.19+
-white_stained_glass,13w41a,pre_1_8
-white_stained_glass_pane,13w41a,pre_1_8
-white_terracotta,13w19a,pre_1_8
-white_tulip,13w36a,pre_1_8
-white_wool,Classic 0.0.20a,pre_1_8
-wild_armor_trim_smithing_template,23w04a,1.19+
-wildflowers,25w02a,1.19+
-wind_charge,24w06a,1.19+
-wither_rose,18w43a,1.13-1.15
-wither_skeleton_skull,12w36a,pre_1_8
-wolf_armor,23w51a,1.19+
-wooden_axe,Indev 0.31 20100128-2200,pre_1_8
-wooden_hoe,Indev 20100206-2034,pre_1_8
-wooden_pickaxe,Indev 0.31 20100128-2200,pre_1_8
-wooden_shovel,Indev 0.31 20100128-2200,pre_1_8
-wooden_spear,25w41a,1.19+
-wooden_sword,Indev 0.31 20100128-2200,pre_1_8
-writable_book,12w17a,pre_1_8
-yellow_banner,14w30a,pre_1_8
-yellow_bed,17w15a,1.9-1.12
-yellow_candle,20w45a,1.16-1.18
-yellow_carpet,13w16a,pre_1_8
-yellow_concrete_powder,17w06a,1.9-1.12
-yellow_dye,Beta 1.2,pre_1_8
-yellow_glazed_terracotta,17w06a,1.9-1.12
-yellow_harness,25w15a,1.19+
-yellow_stained_glass,13w41a,pre_1_8
-yellow_stained_glass_pane,13w41a,pre_1_8
-yellow_terracotta,13w19a,pre_1_8
-yellow_wool,Beta 1.2,pre_1_8
+stone_axe,1.0.0,pre_1_8
+stone_brick_slab,1.0.0,pre_1_8
+stone_brick_stairs,1.0.0,pre_1_8
+stone_brick_wall,1.14,1.13-1.15
+stone_bricks,1.0.0,pre_1_8
+stone_button,1.0.0,pre_1_8
+stone_hoe,1.0.0,pre_1_8
+stone_pickaxe,1.0.0,pre_1_8
+stone_pressure_plate,1.0.0,pre_1_8
+stone_shovel,1.0.0,pre_1_8
+stone_slab,1.14,1.13-1.15
+stone_spear,1.21.9,1.19+
+stone_stairs,1.14,1.13-1.15
+stone_sword,1.0.0,pre_1_8
+stonecutter,1.14,1.13-1.15
+string,1.0.0,pre_1_8
+stripped_acacia_log,1.13,1.13-1.15
+stripped_acacia_wood,1.13,1.13-1.15
+stripped_bamboo_block,1.19.3,1.19+
+stripped_birch_log,1.13,1.13-1.15
+stripped_birch_wood,1.13,1.13-1.15
+stripped_cherry_log,1.19.4,1.19+
+stripped_cherry_wood,1.19.4,1.19+
+stripped_crimson_hyphae,1.16,1.16-1.18
+stripped_crimson_stem,1.16,1.16-1.18
+stripped_dark_oak_log,1.13,1.13-1.15
+stripped_dark_oak_wood,1.13,1.13-1.15
+stripped_jungle_log,1.13,1.13-1.15
+stripped_jungle_wood,1.13,1.13-1.15
+stripped_mangrove_log,1.19,1.19+
+stripped_mangrove_wood,1.19,1.19+
+stripped_oak_log,1.13,1.13-1.15
+stripped_oak_wood,1.13,1.13-1.15
+stripped_pale_oak_log,1.21.2,1.19+
+stripped_pale_oak_wood,1.21.2,1.19+
+stripped_spruce_log,1.13,1.13-1.15
+stripped_spruce_wood,1.13,1.13-1.15
+stripped_warped_hyphae,1.16,1.16-1.18
+stripped_warped_stem,1.16,1.16-1.18
+sugar,1.0.0,pre_1_8
+sugar_cane,1.0.0,pre_1_8
+sulfur,26.2,1.19+
+sulfur_brick_slab,26.2,1.19+
+sulfur_brick_stairs,26.2,1.19+
+sulfur_brick_wall,26.2,1.19+
+sulfur_bricks,26.2,1.19+
+sulfur_slab,26.2,1.19+
+sulfur_spike,26.2,1.19+
+sulfur_stairs,26.2,1.19+
+sulfur_wall,26.2,1.19+
+sunflower,1.6.1,pre_1_8
+suspicious_stew,1.14,1.13-1.15
+target,1.16,1.16-1.18
+terracotta,1.6.1,pre_1_8
+tide_armor_trim_smithing_template,1.19.4,1.19+
+tinted_glass,1.17,1.16-1.18
+tnt,1.0.0,pre_1_8
+tnt_minecart,1.5,pre_1_8
+torch,1.0.0,pre_1_8
+torchflower,1.19.4,1.19+
+trapped_chest,1.5,pre_1_8
+tripwire_hook,1.3.1,pre_1_8
+tuff,1.17,1.16-1.18
+tuff_brick_slab,1.20.3,1.19+
+tuff_brick_stairs,1.20.3,1.19+
+tuff_brick_wall,1.20.3,1.19+
+tuff_bricks,1.20.3,1.19+
+tuff_slab,1.20.3,1.19+
+tuff_stairs,1.20.3,1.19+
+tuff_wall,1.20.3,1.19+
+turtle_helmet,1.13,1.13-1.15
+turtle_scute,1.13,1.13-1.15
+vex_armor_trim_smithing_template,1.19.4,1.19+
+vine,1.0.0,pre_1_8
+ward_armor_trim_smithing_template,1.19.4,1.19+
+warped_button,1.16,1.16-1.18
+warped_door,1.16,1.16-1.18
+warped_fence,1.16,1.16-1.18
+warped_fence_gate,1.16,1.16-1.18
+warped_fungus,1.16,1.16-1.18
+warped_fungus_on_a_stick,1.16,1.16-1.18
+warped_hanging_sign,1.19.3,1.19+
+warped_hyphae,1.16,1.16-1.18
+warped_planks,1.16,1.16-1.18
+warped_pressure_plate,1.16,1.16-1.18
+warped_shelf,1.21.9,1.19+
+warped_sign,1.16,1.16-1.18
+warped_slab,1.16,1.16-1.18
+warped_stairs,1.16,1.16-1.18
+warped_stem,1.16,1.16-1.18
+warped_trapdoor,1.16,1.16-1.18
+waxed_chiseled_copper,1.20.3,1.19+
+waxed_copper_bars,1.21.9,1.19+
+waxed_copper_block,1.17,1.16-1.18
+waxed_copper_bulb,1.20.3,1.19+
+waxed_copper_chain,1.21.9,1.19+
+waxed_copper_chest,1.21.9,1.19+
+waxed_copper_door,1.20.3,1.19+
+waxed_copper_golem_statue,1.21.9,1.19+
+waxed_copper_grate,1.20.3,1.19+
+waxed_copper_lantern,1.21.9,1.19+
+waxed_copper_trapdoor,1.20.3,1.19+
+waxed_cut_copper,1.17,1.16-1.18
+waxed_cut_copper_slab,1.17,1.16-1.18
+waxed_cut_copper_stairs,1.17,1.16-1.18
+waxed_exposed_chiseled_copper,1.20.3,1.19+
+waxed_exposed_copper,1.17,1.16-1.18
+waxed_exposed_copper_bars,1.21.9,1.19+
+waxed_exposed_copper_bulb,1.20.3,1.19+
+waxed_exposed_copper_chain,1.21.9,1.19+
+waxed_exposed_copper_chest,1.21.9,1.19+
+waxed_exposed_copper_door,1.20.3,1.19+
+waxed_exposed_copper_golem_statue,1.21.9,1.19+
+waxed_exposed_copper_grate,1.20.3,1.19+
+waxed_exposed_copper_lantern,1.21.9,1.19+
+waxed_exposed_copper_trapdoor,1.20.3,1.19+
+waxed_exposed_cut_copper,1.17,1.16-1.18
+waxed_exposed_cut_copper_slab,1.17,1.16-1.18
+waxed_exposed_cut_copper_stairs,1.17,1.16-1.18
+waxed_exposed_lightning_rod,1.21.9,1.19+
+waxed_lightning_rod,1.21.9,1.19+
+waxed_oxidized_chiseled_copper,1.20.3,1.19+
+waxed_oxidized_copper,1.17,1.16-1.18
+waxed_oxidized_copper_bars,1.21.9,1.19+
+waxed_oxidized_copper_bulb,1.20.3,1.19+
+waxed_oxidized_copper_chain,1.21.9,1.19+
+waxed_oxidized_copper_chest,1.21.9,1.19+
+waxed_oxidized_copper_door,1.20.3,1.19+
+waxed_oxidized_copper_golem_statue,1.21.9,1.19+
+waxed_oxidized_copper_grate,1.20.3,1.19+
+waxed_oxidized_copper_lantern,1.21.9,1.19+
+waxed_oxidized_copper_trapdoor,1.20.3,1.19+
+waxed_oxidized_cut_copper,1.17,1.16-1.18
+waxed_oxidized_cut_copper_slab,1.17,1.16-1.18
+waxed_oxidized_cut_copper_stairs,1.17,1.16-1.18
+waxed_oxidized_lightning_rod,1.21.9,1.19+
+waxed_weathered_chiseled_copper,1.20.3,1.19+
+waxed_weathered_copper,1.17,1.16-1.18
+waxed_weathered_copper_bars,1.21.9,1.19+
+waxed_weathered_copper_bulb,1.20.3,1.19+
+waxed_weathered_copper_chain,1.21.9,1.19+
+waxed_weathered_copper_chest,1.21.9,1.19+
+waxed_weathered_copper_door,1.20.3,1.19+
+waxed_weathered_copper_golem_statue,1.21.9,1.19+
+waxed_weathered_copper_grate,1.20.3,1.19+
+waxed_weathered_copper_lantern,1.21.9,1.19+
+waxed_weathered_copper_trapdoor,1.20.3,1.19+
+waxed_weathered_cut_copper,1.17,1.16-1.18
+waxed_weathered_cut_copper_slab,1.17,1.16-1.18
+waxed_weathered_cut_copper_stairs,1.17,1.16-1.18
+waxed_weathered_lightning_rod,1.21.9,1.19+
+wayfinder_armor_trim_smithing_template,1.20,1.19+
+weathered_chiseled_copper,1.20.3,1.19+
+weathered_copper,1.17,1.16-1.18
+weathered_copper_bars,1.21.9,1.19+
+weathered_copper_bulb,1.20.3,1.19+
+weathered_copper_chain,1.21.9,1.19+
+weathered_copper_chest,1.21.9,1.19+
+weathered_copper_door,1.20.3,1.19+
+weathered_copper_golem_statue,1.21.9,1.19+
+weathered_copper_grate,1.20.3,1.19+
+weathered_copper_lantern,1.21.9,1.19+
+weathered_copper_trapdoor,1.20.3,1.19+
+weathered_cut_copper,1.17,1.16-1.18
+weathered_cut_copper_slab,1.17,1.16-1.18
+weathered_cut_copper_stairs,1.17,1.16-1.18
+weathered_lightning_rod,1.21.9,1.19+
+wet_sponge,1.8,pre_1_8
+wheat,1.0.0,pre_1_8
+white_banner,1.8,pre_1_8
+white_bed,1.12,1.9-1.12
+white_candle,1.17,1.16-1.18
+white_carpet,1.6.1,pre_1_8
+white_concrete_powder,1.12,1.9-1.12
+white_dye,1.14,1.13-1.15
+white_glazed_terracotta,1.12,1.9-1.12
+white_harness,1.21.5,1.19+
+white_stained_glass,1.7.2,pre_1_8
+white_stained_glass_pane,1.7.2,pre_1_8
+white_terracotta,1.6.1,pre_1_8
+white_tulip,1.6.1,pre_1_8
+white_wool,1.0.0,pre_1_8
+wild_armor_trim_smithing_template,1.19.4,1.19+
+wildflowers,1.21.5,1.19+
+wind_charge,1.20.5,1.19+
+wither_rose,1.14,1.13-1.15
+wither_skeleton_skull,1.4.2,pre_1_8
+wolf_armor,1.20.5,1.19+
+wooden_axe,1.0.0,pre_1_8
+wooden_hoe,1.0.0,pre_1_8
+wooden_pickaxe,1.0.0,pre_1_8
+wooden_shovel,1.0.0,pre_1_8
+wooden_spear,1.21.9,1.19+
+wooden_sword,1.0.0,pre_1_8
+writable_book,1.3.1,pre_1_8
+yellow_banner,1.8,pre_1_8
+yellow_bed,1.12,1.9-1.12
+yellow_candle,1.17,1.16-1.18
+yellow_carpet,1.6.1,pre_1_8
+yellow_concrete_powder,1.12,1.9-1.12
+yellow_dye,1.0.0,pre_1_8
+yellow_glazed_terracotta,1.12,1.9-1.12
+yellow_harness,1.21.5,1.19+
+yellow_stained_glass,1.7.2,pre_1_8
+yellow_stained_glass_pane,1.7.2,pre_1_8
+yellow_terracotta,1.6.1,pre_1_8
+yellow_wool,1.0.0,pre_1_8
