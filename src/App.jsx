@@ -1,6 +1,7 @@
 import Legend from "./components/Legend";
 import { useEffect, useRef,useState } from "react";
-import { tagLabels } from "./translations/labels";
+import { tagLabels } from "./data/labels";
+import { tagItems } from "./data/tagItems";
 import * as d3 from "d3";
 import"./styels/App.css";
 import InfoPanel from "./components/InfoPanel";
@@ -27,6 +28,7 @@ export default function App() {
   const allLinksRef = useRef([]);
   const simulationRef = useRef();
   const nodesRef = useRef([]);
+  const getLabelRef = useRef(id => id);
 
   const [selectedNode, setSelectedNode] = useState(null);
   const [searchText, setSearchText] = useState("");
@@ -49,7 +51,6 @@ export default function App() {
       nodeId,
       allNodesRef.current
     );
-    console.log(targetNode);
     if (!targetNode) return;
 
     const ingredients = getIngredients(
@@ -67,6 +68,26 @@ export default function App() {
       nodeId,
       allLinksRef.current
     );
+    const tagData = tagItems[nodeId];
+
+    const tagNodeList = tagData
+      ? tagData.items.map(id => {
+
+          const node = nodeMapRef.current.get(id);
+
+          if (node) {
+            return node;
+          }
+
+          return {
+            id,
+            label: getLabelRef.current(id),
+            version: "",
+            colorGroup: "other"
+          };
+
+        })
+      : [];
 
     setSelectedNode({
       id: nodeId,
@@ -75,7 +96,9 @@ export default function App() {
       colorGroup: targetNode.colorGroup ?? "other",
       ingredients,
       products,
-      connectedNodes
+      connectedNodes,
+      isTag: !!tagData,
+      tagItems: tagNodeList
     });
     if (shouldZoom) {
       zoomToNode({
@@ -101,8 +124,7 @@ export default function App() {
       const versionMap = new Map(
         versions.map(v => [v.id, v])
       );
-      console.log("versions[0] =", versions[0]);
-console.log("versions.length =", versions.length);
+      
       function getLabel(id) {
         const label =
           ja[`item.minecraft.${id}`] ||
@@ -111,15 +133,13 @@ console.log("versions.length =", versions.length);
           tagLabels[id];
         return label || id;
       }
+      getLabelRef.current = getLabel;
 
       const nodeMap = new Map();
 
       links.forEach((d) => {
         if (!nodeMap.has(d.source)) {
           const meta = versionMap.get(d.source);
-          if (d.source === "stick") {
-            console.log("versionMap:", meta);
-          }
           nodeMap.set(d.source, {
             id: d.source,
             label: getLabel(d.source),

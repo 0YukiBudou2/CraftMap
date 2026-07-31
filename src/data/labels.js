@@ -1,0 +1,36 @@
+export const tagLabels = {
+        "#planks": "タグ:板材",
+        "#logs": "タグ:原木",
+        "#logs_that_burn": "タグ:燃える原木",
+        "#acacia_logs": "タグ:アカシアの原木",
+        "#birch_logs": "タグ:シラカバの原木",
+        "#cherry_logs": "タグ:サクラの原木",
+        "#dark_oak_logs": "タグ:ダークオークの原木",
+        "#jungle_logs": "タグ:ジャングルの原木",
+        "#mangrove_logs": "タグ:マングローブの原木",
+        "#oak_logs": "タグ:オークの原木",
+        "#pale_oak_logs": "タグ:ペールオークの原木",
+        "#spruce_logs": "タグ:トウヒの原木",
+
+        "#wooden_slabs": "タグ:木のハーフブロック",
+        "#wool": "タグ:羊毛",
+        "#leaves": "タグ:葉",
+        "#eggs": "タグ:卵",
+        "#coals": "タグ:石炭類",
+
+        "#stone_tool_materials": "タグ:石ツール素材",
+        "#wooden_tool_materials": "タグ:木ツール素材",
+        "#iron_tool_materials": "タグ:鉄ツール素材",
+        "#gold_tool_materials": "タグ:金ツール素材",
+        "#diamond_tool_materials": "タグ:ダイヤモンドツール素材",
+        "#netherite_tool_materials": "タグ:ネザライトツール素材",
+
+        "#copper_tool_materials": "タグ:銅ツール素材",
+        "#metal_nuggets": "タグ:金属の欠片",
+        "#bamboo_blocks": "タグ:竹ブロック",
+        "#stone_crafting_materials": "タグ:石系クラフト素材",
+        "#smelts_to_glass": "タグ:ガラス化素材",
+        "#soul_fire_base_blocks": "タグ:ソウルファイアの土台",
+        "#crimson_stems": "タグ:真紅の幹",
+        "#warped_stems": "タグ:歪んだ幹"
+      };
