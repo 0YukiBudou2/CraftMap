@@ -71,11 +71,10 @@ for (let i = 1; i < edgeLines.length; i++) {
 // スナップショット開始週（ここは手入力で管理）
 const snapshotMap = [
     { year: 15, week: 31, release: "1.9" },
-    { year: 16, week: 14, release: "1.93"},
+    { year: 16, week: 14, release: "1.9.3"},
     { year: 16, week: 20, release: "1.10" },
     { year: 16, week: 32, release: "1.11" },
     { year: 17, week: 6, release: "1.12" },
-    { year: 16, week: 31, release: "1.12.1"},
     { year: 17, week: 43, release: "1.13" },
     { year: 18, week: 30, release: "1.13.1" },
     { year: 18, week: 43, release: "1.14"},
