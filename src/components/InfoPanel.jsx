@@ -1,6 +1,7 @@
 export default function InfoPanel({
   selectedNode,
-  onClose
+  onClose,
+  onSelectNode
 }) {
   if (!selectedNode) return null;
 
@@ -20,7 +21,11 @@ export default function InfoPanel({
 
           <ul>
             {selectedNode.tagItems.map(item => (
-              <li key={item.id}>
+              <li 
+                key={item.id}
+                className="node-link"
+                onClick={() => onSelectNode(item.id)}
+              >
                 {item.label}
               </li>
             ))}
@@ -31,14 +36,24 @@ export default function InfoPanel({
 
       <ul>
         {selectedNode.ingredients.map(item => (
-          <li key={item.id}>{item.label}</li>
+          <li 
+            key={item.id}
+            className="node-link"
+            onClick={() => onSelectNode(item.id)}
+          >
+            {item.label}</li>
         ))}
       </ul>
 
       <h3>クラフト先</h3>
       <ul>
         {selectedNode.products.map(item => (
-          <li key={item.id}>{item.label}</li>
+          <li 
+            key={item.id}
+            className="node-link"
+            onClick={() => onSelectNode(item.id)}
+          >
+            {item.label}</li>
         ))}
       </ul>
 

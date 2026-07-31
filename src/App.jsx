@@ -238,6 +238,7 @@ export default function App() {
       <InfoPanel
         selectedNode={selectedNode}
         onClose={() => setSelectedNode(null)}
+        onSelectNode={(nodeId) => selectNode(nodeId, true)}
       />
     </div>
   );

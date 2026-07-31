@@ -173,3 +173,8 @@ body,
 
   margin-right: 8px;
 }
+.node-link:hover{
+  cursor: pointer;
+  text-decoration:underline;
+  color:#1976d2;
+}
