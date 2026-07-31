@@ -8,73 +8,26 @@ const blockPath = path.join(__dirname, "../wiki/List_of_blocks_by_version.txt");
 
 const versionMap = new Map();
 
-function loadWiki(filePath) {
-
-    let text = fs.readFileSync(filePath, "utf8");
-    text = text.replace(/\\n/g, "\n");
-
-    const lines = text.split(/\r?\n/);
-
-    let inJavaSection = false;
-
-    for (const line of lines) {
-
-        // セクション見出し判定: "== ''Java Edition'' ==" のような行
-        const headerMatch = line.match(/^==\s*'{0,2}([^=']+)'{0,2}\s*==\s*$/);
-
-        if (headerMatch) {
-            const title = headerMatch[1].trim();
-            inJavaSection = (title === "Java Edition");
-            continue;
-        }
-
-        // Java Edition セクション以外は無視
-        if (!inJavaSection) continue;
-
-        const match = line.match(
-            /^\|.*?\|\|\s*([^|]+?)\s*\|\|\s*(\[\[[^\]]+\]\])/
-        );
-
-        if (!match) continue;
-
-        const id = match[1];
-
-        // [[Java Edition 1.20|1.20]] → Java Edition 1.20|1.20
-        const rawVersion = match[2]
-            .replace(/^\[\[/, "")
-            .replace(/\]\]$/, "");
-
-        const version = rawVersion.split("|").pop();
-
-        versionMap.set(id, version);
-    }
-}
-
-loadWiki(itemPath);
-loadWiki(blockPath);
-
-
-const edgeLines = fs.readFileSync(edgePath, "utf8").split(/\r?\n/);
-
-const nodeSet = new Set();
-
-for (let i = 1; i < edgeLines.length; i++) {
-
-    if (!edgeLines[i]) continue;
-
-    const [source, target] = edgeLines[i].split(",");
-
-    nodeSet.add(source);
-    nodeSet.add(target);
-}
-
-// スナップショット開始週（ここは手入力で管理）
+// ==============================
+// スナップショット → 正式版 変換
+// ==============================
 const snapshotMap = [
+    { year: 11, week: 47, release: "1.1" },
+    { year: 12, week: 3, release: "1.2.1" },
+    { year: 12, week: 15, release: "1.3.1" },
+    { year: 12, week: 32, release: "1.4.2" },
+    { year: 12, week: 49, release: "1.4.6" },
+    { year: 13, week: 1, release: "1.5" },
+    { year: 13, week: 16, release: "1.6.1" },
+    { year: 13, week: 38, release: "1.7.2" },
+    { year: 13, week: 47, release: "1.7.4" },
+    { year: 14, week: 5, release: "1.8" },
     { year: 15, week: 31, release: "1.9" },
-    { year: 16, week: 14, release: "1.9.3"},
+    { year: 16, week: 14, release: "1.9.3" },
     { year: 16, week: 20, release: "1.10" },
     { year: 16, week: 32, release: "1.11" },
     { year: 17, week: 6, release: "1.12" },
+    { year: 17, week: 31, release: "1.12.1"},
     { year: 17, week: 43, release: "1.13" },
     { year: 18, week: 30, release: "1.13.1" },
     { year: 18, week: 43, release: "1.14"},
@@ -108,7 +61,6 @@ function snapshotToRelease(version) {
     let release = null;
 
     for (const entry of snapshotMap) {
-
         if (
             year > entry.year ||
             (year === entry.year && week >= entry.week)
@@ -122,30 +74,109 @@ function snapshotToRelease(version) {
     return release;
 }
 
+// ==============================
+// バージョン表記を正規化する
+// ==============================
+function normalizeVersion(rawLabel) {
+
+    if (!rawLabel) return rawLabel;
+
+    // Alpha/Beta/Indev/Infdev/Classic等 → 正式版が存在しないため 1.0.0 に統一
+    if (
+        rawLabel.includes("Classic") ||
+        rawLabel.includes("Pre-Classic") ||
+        rawLabel.includes("Indev") ||
+        rawLabel.includes("Infdev") ||
+        rawLabel.includes("Alpha") ||
+        rawLabel.includes("Beta")
+    ) {
+        return "1.0.0";
+    }
+
+    // スナップショットなら正式版へ変換
+    if (/^\d{2}w\d{2}[a-z]$/i.test(rawLabel)) {
+        return snapshotToRelease(rawLabel) ?? rawLabel;
+    }
+
+    // 先頭が数値バージョンで始まる場合、その部分だけ抽出
+    const numMatch = rawLabel.match(/^(\d+(?:\.\d+){1,2})/);
+    if (numMatch) {
+        return numMatch[1];
+    }
+
+    return rawLabel;
+}
+
+// ==============================
+// wiki読み込み
+// ==============================
+function loadWiki(filePath) {
+
+    let text = fs.readFileSync(filePath, "utf8");
+    text = text.replace(/\\n/g, "\n");
+
+    const lines = text.split(/\r?\n/);
+
+    let inJavaSection = false;
+
+    for (const line of lines) {
+
+        const headerMatch = line.match(/^==\s*'{0,2}([^=']+)'{0,2}\s*==\s*$/);
+
+        if (headerMatch) {
+            const title = headerMatch[1].trim();
+            inJavaSection = (title === "Java Edition");
+            continue;
+        }
+
+        if (!inJavaSection) continue;
+
+        const match = line.match(
+            /^\|.*?\|\|\s*([^|]+?)\s*\|\|\s*(\[\[[^\]]+\]\])/
+        );
+
+        if (!match) continue;
+
+        const id = match[1];
+
+        const rawVersion = match[2]
+            .replace(/^\[\[/, "")
+            .replace(/\]\]$/, "");
+
+        const rawLabel = rawVersion.split("|").pop();
+
+        const version = normalizeVersion(rawLabel);
+
+        versionMap.set(id, version);
+    }
+}
+
+loadWiki(itemPath);
+loadWiki(blockPath);
+
+
+const edgeLines = fs.readFileSync(edgePath, "utf8").split(/\r?\n/);
+
+const nodeSet = new Set();
+
+for (let i = 1; i < edgeLines.length; i++) {
+
+    if (!edgeLines[i]) continue;
+
+    const [source, target] = edgeLines[i].split(",");
+
+    nodeSet.add(source);
+    nodeSet.add(target);
+}
+
+// ==============================
+// colorGroup の分類
+// ==============================
 function colorGroup(version) {
 
     if (!version) return "";
 
-    // 古いバージョン
-    if (
-        version.includes("Classic") ||
-        version.includes("Pre-Classic") ||
-        version.includes("Indev") ||
-        version.includes("Infdev") ||
-        version.includes("Alpha") ||
-        version.includes("Beta")
-    ) {
-        return "pre_1_8";
-    }
-
-    let v = version;
-
-    // スナップショットなら正式版へ変換
-    if (/^\d{2}w\d{2}[a-z]$/i.test(v)) {
-        v = snapshotToRelease(v) ?? v;
-    }
-
-    const match = v.match(/(\d+)\.(\d+)/);
+    const match = version.match(/(\d+)\.(\d+)/);
 
     if (!match)
         return "pre_1_8";
@@ -153,23 +184,18 @@ function colorGroup(version) {
     const major = Number(match[1]);
     const minor = Number(match[2]);
 
-    // 1.7以前
     if (major === 1 && minor <= 8)
         return "pre_1_8";
 
-    // 1.9 ～ 1.12
     if (major === 1 && minor <= 12)
         return "1.9-1.12";
 
-    // 1.13 ～ 1.15
     if (major === 1 && minor <= 15)
         return "1.13-1.15";
 
-    // 1.16 ～ 1.18
     if (major === 1 && minor <= 18)
         return "1.16-1.18";
 
-    // 1.19以降
     return "1.19+";
 }
 
