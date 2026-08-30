@@ -1,4 +1,4 @@
-export const DEFAULT_NODE_RADIUS = 5;
+import { DEFAULT_NODE_RADIUS } from "./nodeVisuals";
 const ARROW_TARGET_GAP = 3;
 const ARROW_HEAD_LENGTH = 7;
 const ARROW_HEAD_HALF_WIDTH = 4;

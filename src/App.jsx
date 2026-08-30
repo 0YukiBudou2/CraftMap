@@ -17,6 +17,25 @@ import {
   getTraversal
 } from "./d3/graphUtils";
 
+const DEFAULT_SELECTED_NODE_ID = "iron_ingot";
+
+function applyNodePositions(nodes, layout, width, height) {
+  nodes.forEach((node, index) => {
+    const position = layout.positions?.[node.id];
+
+    if (position) {
+      node.x = width / 2 + position.x;
+      node.y = height / 2 + position.y;
+      return;
+    }
+
+    const angle = index * Math.PI * (3 - Math.sqrt(5));
+    const radius = 14 * Math.sqrt(index + 1);
+    node.x = width / 2 + Math.cos(angle) * radius;
+    node.y = height / 2 + Math.sin(angle) * radius;
+  });
+}
+
 export default function App() {
   const svgRef = useRef();
   const nodeRef = useRef();
@@ -26,7 +45,6 @@ export default function App() {
   const nodeMapRef = useRef(new Map());
   const allNodesRef = useRef([]);
   const allLinksRef = useRef([]);
-  const simulationRef = useRef();
   const nodesRef = useRef([]);
   const getLabelRef = useRef(id => id);
   const itemImagesRef = useRef({});
@@ -159,8 +177,9 @@ export default function App() {
       d3.csv("/edges.csv"),
       d3.json("/labels.json"),
       d3.csv("/versions.csv"),
-      d3.json("/item-images.json")
-    ]).then(([links,ja,versions,itemImages]) => {
+      d3.json("/item-images.json"),
+      d3.json("/node-positions.json")
+    ]).then(([links,ja,versions,itemImages,nodePositions]) => {
       itemImagesRef.current = itemImages;
       
       const versionMap = new Map(
@@ -204,6 +223,13 @@ export default function App() {
         }
       });
       const nodes = [...nodeMap.values()];
+      applyNodePositions(nodes, nodePositions, width, height);
+
+      links.forEach(link => {
+        link.source = nodeMap.get(link.source);
+        link.target = nodeMap.get(link.target);
+      });
+
       nodesRef.current = nodes;
       setAllNodes(nodes);
       setAllLinks(links);
@@ -219,9 +245,10 @@ export default function App() {
         containerRef,
         nodeRef,
         linkRef,
-        zoomRef,
-        simulationRef
+        zoomRef
       });
+
+      selectNode(DEFAULT_SELECTED_NODE_ID, true, "ingredients");
     });
   }, []);
   useEffect(() => {

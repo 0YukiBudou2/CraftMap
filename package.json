@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "assets:items": "node scripts/syncItemImages.js",
-    "predev": "npm run assets:items",
+    "layout:nodes": "node scripts/generateNodePositions.js",
+    "predev": "npm run assets:items && npm run layout:nodes",
     "dev": "vite",
-    "prebuild": "npm run assets:items",
+    "prebuild": "npm run assets:items && npm run layout:nodes",
     "build": "vite build",
     "preview": "vite preview"
   },

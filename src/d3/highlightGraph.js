@@ -1,16 +1,19 @@
-import { colorMap } from "./colorMap";
-import { DEFAULT_NODE_RADIUS, updateArrowPaths } from "./linkGeometry";
+import { getNodeColors } from "./colorMap";
+import { updateArrowPaths } from "./linkGeometry";
+import {
+  DEFAULT_NODE_RADIUS,
+  SELECTED_NODE_RADIUS,
+  TRAVERSAL_NODE_RADIUS,
+  updateNodeVisualSizes
+} from "./nodeVisuals";
 
 function setNodeRadius(node, getRadius) {
   node.each(d => {
-    d.nodeRadius = getRadius(d);
+    d.baseNodeRadius = getRadius(d);
   });
 
-  node
-    .select(".node-background")
-    .attr("r", d => d.nodeRadius);
-
-  resizeNodeIcons(node, d => d.nodeRadius);
+  const zoomScale = node.datum()?.zoomScale ?? 1;
+  updateNodeVisualSizes(node, zoomScale);
 }
 
 function resetGraphStyle(node, link) {
@@ -19,7 +22,11 @@ function resetGraphStyle(node, link) {
 
   node
     .select(".node-background")
-    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other);
+    .attr("fill", d => getNodeColors(d.colorGroup).fill)
+    .attr("fill-opacity", 0.72)
+    .attr("stroke", d => getNodeColors(d.colorGroup).stroke)
+    .attr("stroke-opacity", 0.9)
+    .attr("stroke-width", 1);
 
   link
     .attr("fill", "#999")
@@ -31,27 +38,14 @@ function resetGraphStyle(node, link) {
 function getNodeRadius(node, selectedNode) {
 
   if (node.id === selectedNode.id) {
-    return 10;
+    return SELECTED_NODE_RADIUS;
   }
 
   if (selectedNode.traversalNodeIds.has(node.id)) {
-    return 6;
+    return TRAVERSAL_NODE_RADIUS;
   }
 
-  return 5;
-
-}
-function getNodeColor(node, selectedNode) {
-
-  if (node.id === selectedNode.id) {
-    return "#ff9800";
-  }
-
-  if (selectedNode.traversalNodeIds.has(node.id)) {
-    return "#2196f3";
-  }
-
-  return "#cccccc";
+  return DEFAULT_NODE_RADIUS;
 
 }
 function updateNodeStyle(node, selectedNode) {
@@ -60,18 +54,18 @@ function updateNodeStyle(node, selectedNode) {
 
   node
     .select(".node-background")
-    .attr("fill", d => getNodeColor(d, selectedNode));
+    .attr("fill", d => getNodeColors(d.colorGroup).fill)
+    .attr("fill-opacity", 0.72)
+    .attr("stroke", d => getNodeColors(d.colorGroup).stroke)
+    .attr("stroke-opacity", 0.9)
+    .attr("stroke-width", d => {
+      if (d.id === selectedNode.id) return 3;
+      if (selectedNode.traversalNodeIds.has(d.id)) return 2;
+      return 1;
+    });
 
 }
 
-function resizeNodeIcons(node, getRadius) {
-  node
-    .select(".node-icon")
-    .attr("x", d => -(getRadius(d) * 0.75))
-    .attr("y", d => -(getRadius(d) * 0.75))
-    .attr("width", d => getRadius(d) * 1.5)
-    .attr("height", d => getRadius(d) * 1.5);
-}
 function isSelectedLink(link, selectedNode) {
   return selectedNode.traversalLinks.has(link);
 
