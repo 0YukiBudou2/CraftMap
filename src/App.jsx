@@ -11,6 +11,12 @@ import { highlightGraph } from "./d3/highlightGraph";
 import { zoomToNode } from "./d3/zoomToNode";
 import { updateVersionFilter } from "./d3/versionFilter";
 import {
+  createFocusLayoutController,
+  restoreFocusLayout,
+  startFocusLayout,
+  stopFocusLayout
+} from "./d3/focusLayout";
+import {
   getNode,
   getIngredients,
   getProducts,
@@ -26,13 +32,15 @@ function applyNodePositions(nodes, layout, width, height) {
     if (position) {
       node.x = width / 2 + position.x;
       node.y = height / 2 + position.y;
-      return;
+    } else {
+      const angle = index * Math.PI * (3 - Math.sqrt(5));
+      const radius = 14 * Math.sqrt(index + 1);
+      node.x = width / 2 + Math.cos(angle) * radius;
+      node.y = height / 2 + Math.sin(angle) * radius;
     }
 
-    const angle = index * Math.PI * (3 - Math.sqrt(5));
-    const radius = 14 * Math.sqrt(index + 1);
-    node.x = width / 2 + Math.cos(angle) * radius;
-    node.y = height / 2 + Math.sin(angle) * radius;
+    node.baseX = node.x;
+    node.baseY = node.y;
   });
 }
 
@@ -49,6 +57,7 @@ export default function App() {
   const getLabelRef = useRef(id => id);
   const itemImagesRef = useRef({});
   const traversalModeRef = useRef("ingredients");
+  const focusLayoutRef = useRef(createFocusLayoutController());
 
   const [selectedNode, setSelectedNode] = useState(null);
   const [traversalMode, setTraversalMode] = useState("ingredients");
@@ -281,6 +290,30 @@ export default function App() {
       selectedNode
     });
   }, [selectedNode, visibleGroups]);
+  useEffect(() => {
+    if (!nodeRef.current || !linkRef.current) return;
+
+    if (selectedNode) {
+      startFocusLayout({
+        controller: focusLayoutRef.current,
+        nodes: nodesRef.current,
+        node: nodeRef.current,
+        link: linkRef.current,
+        selectedNode
+      });
+      return;
+    }
+
+    restoreFocusLayout({
+      controller: focusLayoutRef.current,
+      nodes: nodesRef.current,
+      node: nodeRef.current,
+      link: linkRef.current
+    });
+  }, [selectedNode]);
+  useEffect(() => () => {
+    stopFocusLayout(focusLayoutRef.current);
+  }, []);
     return (
     <div className="app" onClick={handleAppClick}>
       <header className="header" data-keep-details-open>
