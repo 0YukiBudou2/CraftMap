@@ -27,11 +27,13 @@ export function zoomToNode({
 
   const scale =
     Math.max(currentTransform.k, 1.3);
+  const targetX = node.baseX ?? node.x;
+  const targetY = node.baseY ?? node.y;
 
   const transform = d3.zoomIdentity
     .translate(
-      width / 2 - node.x * scale,
-      height / 2 - node.y * scale
+      width / 2 - targetX * scale,
+      height / 2 - targetY * scale
     )
     .scale(scale);
 

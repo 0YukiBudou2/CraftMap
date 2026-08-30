@@ -250,7 +250,7 @@ export default function App() {
         svgRef,
         nodes,
         links,
-        onNodeClick: (nodeId) => selectNode(nodeId, false),
+        onNodeClick: (nodeId) => selectNode(nodeId, true),
         containerRef,
         nodeRef,
         linkRef,
