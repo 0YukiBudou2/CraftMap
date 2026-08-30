@@ -40,7 +40,7 @@ export default function Legend({
 
 
   return (
-    <div className="legend">
+    <div className="legend" data-keep-details-open>
 
       <button
         onClick={() => setOpen(!open)}

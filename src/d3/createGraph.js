@@ -53,6 +53,7 @@ function createNodes(container, nodes, onNodeClick) {
         .attr("stroke-width", 0);
     })
     .on("click", (event, d) => {
+      event.preventDefault();
       onNodeClick(d.id);
     });
 
@@ -84,6 +85,7 @@ function createNodes(container, nodes, onNodeClick) {
 function createZoom(svg, container) {
   const zoom = d3.zoom()
     .scaleExtent([0.1, 10])
+    .clickDistance(4)
     .on("zoom", (event) => {
       container.attr("transform", event.transform);
     });

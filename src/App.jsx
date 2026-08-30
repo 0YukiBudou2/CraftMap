@@ -29,6 +29,7 @@ export default function App() {
   const simulationRef = useRef();
   const nodesRef = useRef([]);
   const getLabelRef = useRef(id => id);
+  const itemImagesRef = useRef({});
   const traversalModeRef = useRef("ingredients");
 
   const [selectedNode, setSelectedNode] = useState(null);
@@ -96,6 +97,7 @@ export default function App() {
           return {
             id,
             label: getLabelRef.current(id),
+            imageUrl: itemImagesRef.current[id],
             version: "",
             colorGroup: "other"
           };
@@ -137,6 +139,16 @@ export default function App() {
       selectNode(selectedNode.id, false, nextMode);
     }
   }
+
+  function handleAppClick(event) {
+    if (event.defaultPrevented) return;
+
+    if (event.target.closest?.("[data-keep-details-open]")) {
+      return;
+    }
+
+    setSelectedNode(null);
+  }
   useEffect(() => {
     const svgElement = svgRef.current;
     const width = svgElement.clientWidth;
@@ -149,6 +161,7 @@ export default function App() {
       d3.csv("/versions.csv"),
       d3.json("/item-images.json")
     ]).then(([links,ja,versions,itemImages]) => {
+      itemImagesRef.current = itemImages;
       
       const versionMap = new Map(
         versions.map(v => [v.id, v])
@@ -242,8 +255,8 @@ export default function App() {
     });
   }, [selectedNode, visibleGroups]);
     return (
-    <div className="app">
-      <header className="header">
+    <div className="app" onClick={handleAppClick}>
+      <header className="header" data-keep-details-open>
         <div className="title-area">
           <h1>Craft Map</h1>
           <h2>Minecraft レシピ可視化サイト</h2>

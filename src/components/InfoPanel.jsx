@@ -51,13 +51,7 @@ export default function InfoPanel({
   if (!selectedNode) return null;
 
   return (
-    <>
-      <div
-        className="info-backdrop"
-        aria-hidden="true"
-        onClick={onClose}
-      />
-      <div className="info">
+      <div className="info" data-keep-details-open>
         <div className="info-title">
           <h2>{selectedNode.label}</h2>
           {selectedNode.imageUrl && (
@@ -79,14 +73,27 @@ export default function InfoPanel({
       {selectedNode.isTag && (
         <>
           <h3>タグに含まれるアイテム</h3>
-          <ul>
+          <ul className="tag-items">
             {selectedNode.tagItems.map(item => (
               <li
                 key={item.id}
-                className="node-link"
-                onClick={() => onSelectNode(item.id)}
+                className="tag-item"
               >
-                {item.label}
+                <button
+                  type="button"
+                  className="tag-item-heading"
+                  onClick={() => onSelectNode(item.id)}
+                >
+                  <span>{item.label}</span>
+                  {item.imageUrl && (
+                    <img
+                      className="related-item-image"
+                      src={item.imageUrl}
+                      alt=""
+                      loading="lazy"
+                    />
+                  )}
+                </button>
               </li>
             ))}
           </ul>
@@ -114,6 +121,5 @@ export default function InfoPanel({
         ×
       </button>
       </div>
-    </>
   );
 }

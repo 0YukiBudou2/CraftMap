@@ -22,38 +22,51 @@ body,
   height:80px;
   display:flex;
   align-items:center;
-  padding-left:20px;
+  gap:12px;
+  padding:0 20px;
   border-bottom:1px solid #ccc;
 }
 
 .title-area {
   display: flex;
+  flex: 1 1 auto;
   align-items: center;
+  min-width: 0;
   gap: 24px;                /* h1とh2の間隔 */
 }
 
 .header h1{
+  flex: 0 0 auto;
   font-size:24px;
   font-weight:bold;
+  white-space:nowrap;
 }
 
 .header h2{
+  flex: 1 1 auto;
+  min-width: 0;
   font-size:18px;
-  width: 500px;
+  width: auto;
   padding: 8px 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .traversal-mode {
   display: flex;
+  flex: 0 0 auto;
   gap: 4px;
 }
 
 .traversal-mode button {
+  flex: 0 0 auto;
   padding: 7px 10px;
   border: 1px solid #9e9e9e;
   border-radius: 4px;
   background: white;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .traversal-mode button.active {
@@ -65,11 +78,13 @@ body,
 .search-area{
   margin-left:auto;
   position:relative;
+  flex:0 1 280px;
+  min-width:160px;
   z-index:40;
 }
 
 .search-input{
-  width:280px;
+  width:100%;
   height:36px;
   padding:0 12px;
 }
@@ -78,9 +93,9 @@ body,
   position:absolute;
 
   top:60px;
-  right:20px;
+  right:0;
 
-  width:280px;
+  width:100%;
 
   background:white;
   border:1px solid #ccc;
@@ -132,12 +147,6 @@ body,
 
   overflow-y:auto;
   z-index:30;
-}
-
-.info-backdrop {
-  position: fixed;
-  inset: 0;
-  z-index: 20;
 }
 
 .info-title {
@@ -209,6 +218,32 @@ body,
   height: 28px;
   object-fit: contain;
   image-rendering: pixelated;
+}
+
+.tag-items {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+.tag-item-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 0;
+  border: 0;
+  color: inherit;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tag-item-heading:hover {
+  color: #1976d2;
+  text-decoration: underline;
 }
 
 .craft-methods {
@@ -285,4 +320,41 @@ body,
   cursor: pointer;
   text-decoration:underline;
   color:#1976d2;
+}
+
+@media (max-width: 1100px) {
+  .header h2 {
+    display: none;
+  }
+
+  .search-area {
+    flex-basis: 220px;
+  }
+}
+
+@media (max-width: 760px) {
+  .header {
+    gap: 6px;
+    padding: 0 10px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .traversal-mode button {
+    padding: 6px 7px;
+    font-size: 12px;
+  }
+
+  .search-area {
+    min-width: 120px;
+    flex-basis: 180px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-area {
+    display: none;
+  }
 }

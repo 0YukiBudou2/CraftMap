@@ -5,7 +5,7 @@ export default function SearchBox({
   onSelectNode
 }) {
   return (
-    <div className="search-area">
+    <div className="search-area" data-keep-details-open>
       <input
         className="search-input"
         type="text"
