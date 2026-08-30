@@ -106,6 +106,7 @@ export default function App() {
     setSelectedNode({
       id: nodeId,
       label: targetNode.label,
+      imageUrl: targetNode.imageUrl,
       version: targetNode.version ?? "",
       colorGroup: targetNode.colorGroup ?? "other",
       ingredients,

@@ -2,62 +2,43 @@ export function getNode(nodeId, allNodes) {
   return allNodes.find(node => node.id === nodeId);
 }
 
+function getRelatedItems(nodeId, allLinks, nodeMap, direction) {
+  const relatedItems = new Map();
+
+  allLinks.forEach(link => {
+    const source = getEndpointId(link.source);
+    const target = getEndpointId(link.target);
+    const matches = direction === "ingredients"
+      ? target === nodeId
+      : source === nodeId;
+
+    if (!matches) return;
+
+    const relatedId = direction === "ingredients" ? source : target;
+    const node = nodeMap.get(relatedId);
+    const item = relatedItems.get(relatedId) ?? {
+      id: relatedId,
+      label: node?.label ?? relatedId,
+      imageUrl: node?.imageUrl,
+      craftMethods: new Set()
+    };
+
+    item.craftMethods.add(link.type || "unknown");
+    relatedItems.set(relatedId, item);
+  });
+
+  return [...relatedItems.values()].map(item => ({
+    ...item,
+    craftMethods: [...item.craftMethods]
+  }));
+}
+
 export function getIngredients(nodeId, allLinks, nodeMap) {
-
-  return allLinks
-    .filter(link => {
-
-      const target =
-        typeof link.target === "object"
-          ? link.target.id
-          : link.target;
-
-      return target === nodeId;
-
-    })
-    .map(link => {
-
-      const source =
-        typeof link.source === "object"
-          ? link.source.id
-          : link.source;
-
-      return {
-        id: source,
-        label: nodeMap.get(source)?.label
-      };
-
-    });
-
+  return getRelatedItems(nodeId, allLinks, nodeMap, "ingredients");
 }
 
 export function getProducts(nodeId, allLinks, nodeMap) {
-
-  return allLinks
-    .filter(link => {
-
-      const source =
-        typeof link.source === "object"
-          ? link.source.id
-          : link.source;
-
-      return source === nodeId;
-
-    })
-    .map(link => {
-
-      const target =
-        typeof link.target === "object"
-          ? link.target.id
-          : link.target;
-
-      return {
-        id: target,
-        label: nodeMap.get(target)?.label
-      };
-
-    });
-
+  return getRelatedItems(nodeId, allLinks, nodeMap, "products");
 }
 
 function getEndpointId(endpoint) {
