@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const sourceDir = path.resolve(__dirname, "../gazou/Minecraft_Items");
+const sourceDir = path.resolve(__dirname, "../public/item-images");
 const destinationDir = path.resolve(__dirname, "../public/item-images");
 const manifestPath = path.resolve(__dirname, "../public/item-images.json");
 
