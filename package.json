@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "assets:items": "node scripts/syncItemImages.js",
+    "predev": "npm run assets:items",
     "dev": "vite",
+    "prebuild": "npm run assets:items",
     "build": "vite build",
     "preview": "vite preview"
   },

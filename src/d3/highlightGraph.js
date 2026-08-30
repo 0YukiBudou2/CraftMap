@@ -1,14 +1,31 @@
 import { colorMap } from "./colorMap";
+import { DEFAULT_NODE_RADIUS, updateArrowPaths } from "./linkGeometry";
+
+function setNodeRadius(node, getRadius) {
+  node.each(d => {
+    d.nodeRadius = getRadius(d);
+  });
+
+  node
+    .select(".node-background")
+    .attr("r", d => d.nodeRadius);
+
+  resizeNodeIcons(node, d => d.nodeRadius);
+}
 
 function resetGraphStyle(node, link) {
 
+  setNodeRadius(node, () => DEFAULT_NODE_RADIUS);
+
   node
-    .attr("r", 5)
+    .select(".node-background")
     .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other);
 
   link
-    .attr("stroke", "#999")
-    .attr("stroke-width", 1);
+    .attr("fill", "#999")
+    .attr("fill-opacity", 0.6);
+
+  updateArrowPaths(link);
 
 }
 function getNodeRadius(node, selectedNode) {
@@ -17,7 +34,7 @@ function getNodeRadius(node, selectedNode) {
     return 10;
   }
 
-  if (selectedNode.connectedNodes.has(node.id)) {
+  if (selectedNode.traversalNodeIds.has(node.id)) {
     return 6;
   }
 
@@ -30,70 +47,51 @@ function getNodeColor(node, selectedNode) {
     return "#ff9800";
   }
 
-  if (selectedNode.connectedNodes.has(node.id)) {
+  if (selectedNode.traversalNodeIds.has(node.id)) {
     return "#2196f3";
   }
 
   return "#cccccc";
 
 }
-function getNodeOpacity(node, selectedNode) {
-
-  if (selectedNode.connectedNodes.has(node.id)) {
-    return 1;
-  }
-
-  return 0.2;
-
-}
 function updateNodeStyle(node, selectedNode) {
 
+  setNodeRadius(node, d => getNodeRadius(d, selectedNode));
+
   node
-    .attr("r", d => getNodeRadius(d, selectedNode))
+    .select(".node-background")
     .attr("fill", d => getNodeColor(d, selectedNode));
 
 }
+
+function resizeNodeIcons(node, getRadius) {
+  node
+    .select(".node-icon")
+    .attr("x", d => -(getRadius(d) * 0.75))
+    .attr("y", d => -(getRadius(d) * 0.75))
+    .attr("width", d => getRadius(d) * 1.5)
+    .attr("height", d => getRadius(d) * 1.5);
+}
 function isSelectedLink(link, selectedNode) {
-
-  const source = link.source.id;
-  const target = link.target.id;
-
-  return (
-    source === selectedNode.id ||
-    target === selectedNode.id
-  );
+  return selectedNode.traversalLinks.has(link);
 
 }
 function updateLinkStyle(link, selectedNode) {
 
   link
-    .attr("stroke", d =>
+    .attr("fill", d =>
       isSelectedLink(d, selectedNode)
         ? "red"
         : "#cccccc"
     )
-    .attr("stroke-width", d =>
+    .attr("fill-opacity", d =>
       isSelectedLink(d, selectedNode)
-        ? 3
-        : 1
+        ? 1
+        : 0.6
     );
 
-}
-function getDefaultNodeOpacity(node, visibleGroups) {
-  return visibleGroups.has(node.colorGroup)
-    ? 1
-    : 0.08;
-}
-function getDefaultLinkOpacity(link, visibleGroups) {
-  const sourceVisible =
-    visibleGroups.has(link.source.colorGroup);
+  updateArrowPaths(link);
 
-  const targetVisible =
-    visibleGroups.has(link.target.colorGroup);
-
-  return sourceVisible && targetVisible
-    ? 0.6
-    : 0.05;
 }
 export function highlightGraph({
   node,
@@ -107,9 +105,9 @@ export function highlightGraph({
   }
 
   if (!selectedNode) {
-    resetGraphStyle(node, link, visibleGroups);
+    resetGraphStyle(node, link);
     return;
     }
   updateNodeStyle(node, selectedNode,visibleGroups);
-  updateLinkStyle(link, selectedNode,visibleGroups);
+  updateLinkStyle(link, selectedNode);
 }

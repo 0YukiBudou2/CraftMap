@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 import { colorMap } from "./colorMap";
+import { DEFAULT_NODE_RADIUS, updateArrowPaths } from "./linkGeometry";
 
 function createSimulation(nodes, links, width, height) {
   return d3.forceSimulation(nodes)
@@ -16,23 +17,29 @@ function createSimulation(nodes, links, width, height) {
 function createLinks(container, links) {
   return container
     .append("g")
-    .selectAll("line")
+    .attr("class", "edges")
+    .selectAll("path")
     .data(links)
-    .join("line")
-    .attr("stroke", "#999")
-    .attr("stroke-opacity", 0.6);
+    .join("path")
+    .attr("class", "edge-arrow")
+    .attr("fill", "#999")
+    .attr("fill-opacity", 0.6);
 }
 
 function createNodes(container, nodes, onNodeClick) {
   const node = container
     .append("g")
-    .selectAll("circle")
+    .attr("class", "nodes")
+    .selectAll("g")
     .data(nodes)
-    .join("circle")
-    .attr("r", 5)
-    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other)
+    .join("g")
+    .attr("class", "node")
+    .each(d => {
+      d.nodeRadius = DEFAULT_NODE_RADIUS;
+    })
     .on("mouseover", function () {
       d3.select(this)
+        .select(".node-background")
         .transition()
         .duration(100)
         .attr("stroke", "#333")
@@ -40,6 +47,7 @@ function createNodes(container, nodes, onNodeClick) {
     })
     .on("mouseout", function () {
       d3.select(this)
+        .select(".node-background")
         .transition()
         .duration(100)
         .attr("stroke-width", 0);
@@ -47,6 +55,24 @@ function createNodes(container, nodes, onNodeClick) {
     .on("click", (event, d) => {
       onNodeClick(d.id);
     });
+
+  node
+    .append("circle")
+    .attr("class", "node-background")
+    .attr("r", DEFAULT_NODE_RADIUS)
+    .attr("fill", d => colorMap[d.colorGroup] ?? colorMap.other);
+
+  node
+    .filter(d => Boolean(d.imageUrl))
+    .append("image")
+    .attr("class", "node-icon")
+    .attr("href", d => d.imageUrl)
+    .attr("x", -3.75)
+    .attr("y", -3.75)
+    .attr("width", 7.5)
+    .attr("height", 7.5)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .style("pointer-events", "none");
 
   node
     .append("title")
@@ -70,15 +96,10 @@ function createZoom(svg, container) {
 function registerTick(simulation, node, link) {
   simulation.on("tick", () => {
 
-    link
-      .attr("x1", d => d.source.x)
-      .attr("y1", d => d.source.y)
-      .attr("x2", d => d.target.x)
-      .attr("y2", d => d.target.y);
+    updateArrowPaths(link);
 
     node
-      .attr("cx", d => d.x)
-      .attr("cy", d => d.y);
+      .attr("transform", d => `translate(${d.x},${d.y})`);
 
   });
 }

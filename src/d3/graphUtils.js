@@ -60,34 +60,60 @@ export function getProducts(nodeId, allLinks, nodeMap) {
 
 }
 
-export function getConnectedNodes(nodeId, allLinks) {
+function getEndpointId(endpoint) {
+  return typeof endpoint === "object" ? endpoint.id : endpoint;
+}
 
-  const connectedNodes = new Set();
+function isTagNode(nodeId) {
+  return nodeId.startsWith("#");
+}
 
-  connectedNodes.add(nodeId);
+export function getTraversal(nodeId, allLinks, mode) {
+  const traversalNodeIds = new Set([nodeId]);
+  const traversalLinks = new Set();
 
+  if (mode === "products") {
+    allLinks.forEach(link => {
+      const source = getEndpointId(link.source);
+
+      if (source !== nodeId) return;
+
+      traversalLinks.add(link);
+      traversalNodeIds.add(getEndpointId(link.target));
+    });
+
+    return { traversalNodeIds, traversalLinks };
+  }
+
+  const ingredientsByProduct = new Map();
   allLinks.forEach(link => {
+    const target = getEndpointId(link.target);
+    const ingredients = ingredientsByProduct.get(target) ?? [];
 
-    const source =
-      typeof link.source === "object"
-        ? link.source.id
-        : link.source;
-
-    const target =
-      typeof link.target === "object"
-        ? link.target.id
-        : link.target;
-
-    if (source === nodeId) {
-      connectedNodes.add(target);
-    }
-
-    if (target === nodeId) {
-      connectedNodes.add(source);
-    }
-
+    ingredients.push({ nodeId: getEndpointId(link.source), link });
+    ingredientsByProduct.set(target, ingredients);
   });
 
-  return connectedNodes;
+  const pendingNodeIds = [nodeId];
+  let queueIndex = 0;
 
+  while (queueIndex < pendingNodeIds.length) {
+    const currentNodeId = pendingNodeIds[queueIndex];
+    queueIndex += 1;
+
+    (ingredientsByProduct.get(currentNodeId) ?? []).forEach(({
+      nodeId: ingredientId,
+      link
+    }) => {
+      if (isTagNode(ingredientId) || traversalNodeIds.has(ingredientId)) {
+        return;
+      }
+
+      traversalNodeIds.add(ingredientId);
+      traversalLinks.add(link);
+      pendingNodeIds.push(ingredientId);
+    });
+  }
+
+  return { traversalNodeIds, traversalLinks };
 }

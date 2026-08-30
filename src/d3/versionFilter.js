@@ -7,11 +7,6 @@ export function updateVersionFilter({
 
   if (!node || !link) return;
 
-  node.each(d => {
-  if (d.colorGroup === "other") {
-    console.log("OTHER:", d.id);
-  }
-});
   node
     .attr("opacity", d => {
 
@@ -22,9 +17,9 @@ export function updateVersionFilter({
 
       if (!selectedNode) return 1;
 
-      return selectedNode.connectedNodes.has(d.id)
+      return selectedNode.traversalNodeIds.has(d.id)
         ? 1
-        : 0.2;
+        : 0.08;
     })
     .style("pointer-events", d =>
       visibleGroups.has(d.colorGroup)
@@ -35,6 +30,10 @@ export function updateVersionFilter({
   link
     .attr("opacity", d => {
 
+      if (selectedNode && !selectedNode.traversalLinks.has(d)) {
+        return 0;
+      }
+
       const visible =
         visibleGroups.has(d.source.colorGroup) &&
         visibleGroups.has(d.target.colorGroup);
@@ -43,12 +42,7 @@ export function updateVersionFilter({
 
       if (!selectedNode) return 0.6;
 
-      return (
-        d.source.id === selectedNode.id ||
-        d.target.id === selectedNode.id
-      )
-        ? 1
-        : 0.1;
+      return 1;
     });
 
 }

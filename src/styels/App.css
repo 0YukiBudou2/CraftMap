@@ -43,6 +43,25 @@ body,
   padding: 8px 12px;
 }
 
+.traversal-mode {
+  display: flex;
+  gap: 4px;
+}
+
+.traversal-mode button {
+  padding: 7px 10px;
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+}
+
+.traversal-mode button.active {
+  color: white;
+  border-color: #1976d2;
+  background: #1976d2;
+}
+
 .search-area{
   margin-left:auto;
   position:relative;
@@ -88,6 +107,10 @@ body,
 .main svg{
   width:100%;
   height:100%;
+}
+
+.node-icon {
+  image-rendering: pixelated;
 }
 
 .info{
@@ -172,6 +195,13 @@ body,
   border-radius: 50%;
 
   margin-right: 8px;
+}
+
+.legend-direction {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+  font-size: 13px;
 }
 .node-link:hover{
   cursor: pointer;

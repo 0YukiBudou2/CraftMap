@@ -14,7 +14,7 @@ import {
   getNode,
   getIngredients,
   getProducts,
-  getConnectedNodes
+  getTraversal
 } from "./d3/graphUtils";
 
 export default function App() {
@@ -29,8 +29,10 @@ export default function App() {
   const simulationRef = useRef();
   const nodesRef = useRef([]);
   const getLabelRef = useRef(id => id);
+  const traversalModeRef = useRef("ingredients");
 
   const [selectedNode, setSelectedNode] = useState(null);
+  const [traversalMode, setTraversalMode] = useState("ingredients");
   const [searchText, setSearchText] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [allNodes, setAllNodes] = useState([]);
@@ -46,7 +48,11 @@ export default function App() {
     ])
   );
 
-  function selectNode(nodeId,shouldZoom = false) {
+  function selectNode(
+    nodeId,
+    shouldZoom = false,
+    mode = traversalModeRef.current
+  ) {
     const targetNode = getNode(
       nodeId,
       allNodesRef.current
@@ -64,11 +70,19 @@ export default function App() {
       nodeMapRef.current
     );
 
-    const connectedNodes = getConnectedNodes(
-      nodeId,
-      allLinksRef.current
-    );
     const tagData = tagItems[nodeId];
+    const effectiveMode = tagData ? "products" : mode;
+
+    if (tagData && traversalModeRef.current !== "products") {
+      traversalModeRef.current = "products";
+      setTraversalMode("products");
+    }
+
+    const { traversalNodeIds, traversalLinks } = getTraversal(
+      nodeId,
+      allLinksRef.current,
+      effectiveMode
+    );
 
     const tagNodeList = tagData
       ? tagData.items.map(id => {
@@ -96,7 +110,9 @@ export default function App() {
       colorGroup: targetNode.colorGroup ?? "other",
       ingredients,
       products,
-      connectedNodes,
+      traversalMode: effectiveMode,
+      traversalNodeIds,
+      traversalLinks,
       isTag: !!tagData,
       tagItems: tagNodeList
     });
@@ -109,6 +125,17 @@ export default function App() {
       });
     }
   }
+
+  function changeTraversalMode(nextMode) {
+    if (nextMode === traversalMode) return;
+
+    traversalModeRef.current = nextMode;
+    setTraversalMode(nextMode);
+
+    if (selectedNode) {
+      selectNode(selectedNode.id, false, nextMode);
+    }
+  }
   useEffect(() => {
     const svgElement = svgRef.current;
     const width = svgElement.clientWidth;
@@ -118,8 +145,9 @@ export default function App() {
     Promise.all([
       d3.csv("/edges.csv"),
       d3.json("/labels.json"),
-      d3.csv("/versions.csv")
-    ]).then(([links,ja,versions]) => {
+      d3.csv("/versions.csv"),
+      d3.json("/item-images.json")
+    ]).then(([links,ja,versions,itemImages]) => {
       
       const versionMap = new Map(
         versions.map(v => [v.id, v])
@@ -144,7 +172,8 @@ export default function App() {
             id: d.source,
             label: getLabel(d.source),
             version: meta?.version ?? "",
-            colorGroup: meta?.colorGroup || "other"
+            colorGroup: meta?.colorGroup || "other",
+            imageUrl: itemImages[d.source]
           });
         }
 
@@ -155,7 +184,8 @@ export default function App() {
             id: d.target,
             label: getLabel(d.target),
             version: meta?.version ?? "",
-            colorGroup: meta?.colorGroup ?? "other"
+            colorGroup: meta?.colorGroup ?? "other",
+            imageUrl: itemImages[d.target]
           });
         }
       });
@@ -217,6 +247,24 @@ export default function App() {
           <h1>Craft Map</h1>
           <h2>Minecraft レシピ可視化サイト</h2>
         </div> 
+        <div className="traversal-mode" role="group" aria-label="経路の表示モード">
+          <button
+            type="button"
+            className={traversalMode === "ingredients" ? "active" : ""}
+            aria-pressed={traversalMode === "ingredients"}
+            onClick={() => changeTraversalMode("ingredients")}
+          >
+            素材をたどる
+          </button>
+          <button
+            type="button"
+            className={traversalMode === "products" ? "active" : ""}
+            aria-pressed={traversalMode === "products"}
+            onClick={() => changeTraversalMode("products")}
+          >
+            クラフト先をたどる
+          </button>
+        </div>
         <SearchBox
           searchText={searchText}
           setSearchText={setSearchText}

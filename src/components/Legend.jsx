@@ -81,6 +81,8 @@ export default function Legend({
             ))
           }
 
+          <p className="legend-direction">矢印：素材 → 生成物</p>
+
         </div>
       }
 
