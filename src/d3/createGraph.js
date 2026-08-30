@@ -2,6 +2,10 @@ import * as d3 from "d3";
 import { getNodeColors } from "./colorMap";
 import { updateArrowPaths } from "./linkGeometry";
 import {
+  DEFAULT_EDGE_COLOR,
+  DEFAULT_EDGE_OPACITY
+} from "./linkVisuals";
+import {
   DEFAULT_NODE_RADIUS,
   NODE_ICON_SCALE,
   SELECTED_NODE_RADIUS,
@@ -17,8 +21,8 @@ function createLinks(container, links) {
     .data(links)
     .join("path")
     .attr("class", "edge-arrow")
-    .attr("fill", "#999")
-    .attr("fill-opacity", 0.6);
+    .attr("fill", DEFAULT_EDGE_COLOR)
+    .attr("fill-opacity", DEFAULT_EDGE_OPACITY);
 }
 
 function createNodes(container, nodes, onNodeClick) {
@@ -31,7 +35,6 @@ function createNodes(container, nodes, onNodeClick) {
     .attr("class", "node")
     .each(d => {
       d.baseNodeRadius = DEFAULT_NODE_RADIUS;
-      d.zoomScale = 1;
       d.zoomNodeScale = 1;
       d.nodeRadius = DEFAULT_NODE_RADIUS;
     })

@@ -40,7 +40,7 @@ export function updateVersionFilter({
 
       if (!visible) return 0.05;
 
-      if (!selectedNode) return 0.6;
+      if (!selectedNode) return 1;
 
       return 1;
     });

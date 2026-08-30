@@ -1,6 +1,12 @@
 import { getNodeColors } from "./colorMap";
 import { updateArrowPaths } from "./linkGeometry";
 import {
+  ACTIVE_EDGE_COLOR,
+  ACTIVE_EDGE_OPACITY,
+  DEFAULT_EDGE_COLOR,
+  DEFAULT_EDGE_OPACITY
+} from "./linkVisuals";
+import {
   DEFAULT_NODE_RADIUS,
   SELECTED_NODE_RADIUS,
   TRAVERSAL_NODE_RADIUS,
@@ -29,8 +35,8 @@ function resetGraphStyle(node, link) {
     .attr("stroke-width", 1);
 
   link
-    .attr("fill", "#999")
-    .attr("fill-opacity", 0.6);
+    .attr("fill", DEFAULT_EDGE_COLOR)
+    .attr("fill-opacity", DEFAULT_EDGE_OPACITY);
 
   updateArrowPaths(link);
 
@@ -75,13 +81,13 @@ function updateLinkStyle(link, selectedNode) {
   link
     .attr("fill", d =>
       isSelectedLink(d, selectedNode)
-        ? "red"
-        : "#cccccc"
+        ? ACTIVE_EDGE_COLOR
+        : DEFAULT_EDGE_COLOR
     )
     .attr("fill-opacity", d =>
       isSelectedLink(d, selectedNode)
-        ? 1
-        : 0.6
+        ? ACTIVE_EDGE_OPACITY
+        : DEFAULT_EDGE_OPACITY
     );
 
   updateArrowPaths(link);
